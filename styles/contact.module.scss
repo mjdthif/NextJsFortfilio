@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.contact__container{
+    height: 100vh;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contact__form{
+    height: 100vh;
+    margin: auto ;
+    display: flex;
+}
+
+
+
+
+/*++++++++++++   Form Styling  ++++++++++++++*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.8rem;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 0.5rem ;
+    gap: 1.4rem;
+}
+
+input, 
+textarea{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 2px solid var(--color-primary);
+    padding: 0.6rem;
+    resize:none;
+}
+input:focus {
+    background-color: rgba(0, 0, 0, 0.81);
+    color: rgb(255, 255, 0);
+  }
+  textarea:focus{
+    background-color: rgb(13, 0, 0);
+    color: rgb(255, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+  /*++++++++++++   Media query ++++++++++++++*/
+
+
+
+@media screen and (max-width:1080px) {
+    .contact__container{
+      
+    }
+    .contact__formv{
+      
+    }
+}

@@ -1,0 +1,156 @@
+
+.page-container{
+    color: rgb(255, 255, 255);
+    max-width: 70%;
+    width:auto;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+    font-size: 1rem;
+}
+.cv-container{
+    display: grid;
+    grid-template-columns: 25% 70%;
+    height: auto;
+}
+
+.cv{
+    margin:0 ;
+    padding-top:2rem;
+}
+.btn_sve{
+    font-size: 1.5rem;
+    padding: 0rem 2rem;
+    margin: 10px;
+}
+.btn_eng {
+    font-size: 1.5rem;
+    padding :1rem;
+}
+
+.col1{
+    padding: 0.6rem;
+    background-color: rgba(81, 81, 77, 0.417);
+}
+.col2{
+    background-color: rgba(13, 17, 46, 0.289);
+   color: white;
+
+}
+
+.lan-container{
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+}
+.dot-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  
+}
+.dot-empty {
+    margin: 0.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot-colored {
+    margin: 0.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+
+  .extracurricu{
+      align-items: left;
+      text-align: left;
+      margin: 1rem 0.5rem;
+      padding: 1rem;
+  }
+  .main-header{
+    padding: 1rem;
+  }
+  .main-part{
+      display: grid;
+      grid-template-columns: 5% 90%;
+      gap:2%
+  }
+ 
+
+  .vl {
+    border-left: 1px solid rgb(250, 250, 250);
+    height:auto;
+    margin-left: auto;
+  }
+
+  .section-title{
+      margin: 1rem;
+  }
+
+  .software-sec{
+    padding: 1rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+
+  @media screen and (max-width:1080px) {
+    .page-container{
+        max-width: 100%;
+    }
+    .col1{
+        padding: 0.5rem;
+    }
+    .col2{
+        padding: 0.5rem;
+    }
+    .cv-container{
+        display: grid;
+        grid-template-columns:30% 70%;
+        height: auto;
+    }
+    .extracurricu{
+            font-size: 1rem;
+            padding: 0.4rem;
+    }
+    .software-sec{
+       
+    }
+
+}
+  @media screen and (max-width:470px) {
+    .page-container{
+        align-items: center;
+        height: auto;
+        margin: auto;
+    }
+    .cv-container{
+        grid-template-columns: 100%;
+        height: auto;
+    }
+    .col1{
+        padding: 0.4rem;
+    }
+    .col2{
+        padding: 0.4rem;
+    }
+    .lan-container{
+        display: none;
+    }
+    .extracurricu{
+        display: none;
+    }
+    .software-sec{
+        font-size: 0.3rem;
+    }
+
+   
+  
+}

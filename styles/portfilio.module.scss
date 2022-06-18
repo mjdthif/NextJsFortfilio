@@ -1,0 +1,77 @@
+
+
+.portfilioContainer{
+    /* background-color: red; */
+        
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 2%;
+    max-width: 1400px;
+    width: 100%;
+    margin:4rem auto;
+    padding: 1rem 3rem;
+
+}
+.viewMoreContainer{
+    margin: inherit;
+    padding: inherit;
+}
+.about__content{
+  
+    height: auto;
+    padding: auto;
+    border-radius: 0.5rem;
+}
+.about__cards{
+   
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.2);
+
+
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+
+}
+.about-card{
+   
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.1rem;
+    border: 1px solid white;
+}
+.about-card:hover{
+    border-color: gold;
+}
+.portfilioContainer img{
+    display: block;
+    max-height: 300px;
+    height: 300px;
+    width:100%;
+    object-fit:cover;
+    margin-bottom: 1rem;
+}
+
+
+ /*================================================== Media query  */
+
+
+
+
+
+@media screen and  (max-width:1080px) {
+    .portfilioContainer{
+        grid-template-columns: 100%;
+        padding: 1rem 0rem 10rem 0rem;
+    }
+   
+}
+
+@media screen and  (max-width:700px) {
+    .portfilioContainer{
+        padding:1rem  0.1rem; 
+        gap: 1%;
+    }
+
+}
