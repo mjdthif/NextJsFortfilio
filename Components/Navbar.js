@@ -1,27 +1,12 @@
-import React, {useState, useEffect} from 'react';
-import { animateScroll as scroll } from 'react-scroll';
-import { BrowserRouter as router } from "react-router-dom";
-import { IconContext } from 'react-icons/lib';
-import { FcGraduationCap } from "react-icons/fc";
+
+import Link from 'next/link';
 import { GoOrganization } from "react-icons/go";
 import {BiHomeAlt} from 'react-icons/bi';
 import {BsToggles} from 'react-icons/bs'
 import { FaUniversity  } from "react-icons/fa";
 import {AiOutlineExperiment, AiFillContacts} from 'react-icons/ai';
 
-
-
-
-import {
-    NavBar,
-    NavLinks,  
-    NavToggle, 
-    NavContainer, 
-    SociaToggel, 
- 
-}from './NbElements';
-
-
+import style from '../styles/navbar.module.scss'
 
 
 
@@ -30,48 +15,41 @@ const StyNav = ({toggle, isOpen,showSocialNav, showSocial}) => {
 
   return (
     <>
-    <NavBar isOpen={isOpen}>
-      
-                  <NavToggle to='' isOpen={isOpen} onClick={toggle} id='navToggle'><BsToggles/></NavToggle>
+    <nav className={style.navBar} isOpen={isOpen}>
+                  <span className={style.navToogle} isOpen={isOpen} onClick={toggle} id='navToggle'><BsToggles/></span>
+                                <Link href={"#home"}>
+                                    <a className={style.navLinks}>    
+                                    <BiHomeAlt/>      
+                                    </a>
+                                </Link > 
+                                <Link href={"#portfilio"}>  
+                                      <a  className={style.navLinks}>    
+                                      <FaUniversity/>      
+                                      </a>
+                                </Link>
+                                <Link href={"#experience"}>    
+                                      <a href='experience'  className={style.navLinks}>    
+                                      <AiOutlineExperiment/>      
+                                      </a>
+                                </Link >
+                                <Link href={"#contact"}>
+                                      <a className={style.navLinks}>    
+                                      <AiFillContacts/>      
+                                      </a>
+                                </Link>
+                              
 
-                                <NavLinks to='home' 
-                                smooth={true}  spy={true}
-                                exact ={'true'}
-                                >    
-                                <BiHomeAlt/>      
-                                </NavLinks>
+                             
 
-                                <NavLinks to='portfilio' 
-                                smooth={true}  spy={true}
-                                exact ={'true'} 
-                                >    
-                                <FaUniversity/>      
-                                </NavLinks>
-
-                                <NavLinks to='experience' 
-                                smooth={true}   spy={true}
-                                exact ={'true'} 
-                                >    
-                                <AiOutlineExperiment/>      
-                                </NavLinks>
-
-                                <NavLinks to='contact' 
-                                smooth={true}  spy={true}
-                                exact ={'true'}
-                                >    
-                                <AiFillContacts/>      
-                                </NavLinks>
-
-                      <SociaToggel 
-                      smooth={true}  spy={true}
-                      exact ={'true'} 
+                            
+                      <span 
+                      className={style.sociaToggel}
                       onClick={showSocialNav}
-                      showSocial={showSocial}
-                      >    
+                      showSocial={showSocial}>    
                       <GoOrganization/>      
-                      </SociaToggel>
+                      </span>
       
-    </NavBar>
+    </nav>
     
     </>
   )

@@ -7,13 +7,7 @@ import ProfileImage from '../public/Assests/webP/me2.webP'
 const ProfilePic  = () => {
   return (
     <div className={style.picContainer}>       
-        {/* <Image 
-        className={style.myImg}
-        src={ProfileImage}  
-        alt="Mjd Profile Picture Berlin"
-        width="450px"
-        height="400px"
-        /> */}
+     {/* the image url is the css due to some costomatzion */}
     </div>
   )
 }

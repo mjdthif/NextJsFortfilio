@@ -8,10 +8,11 @@
     height: auto;
     margin:auto;
     display: grid;
-    grid-template-columns:45% 50%;
-    gap: 5%;
+    grid-template-columns:45% 45%;
+    gap: 10%;
     align-items: center;
     text-align: center;
+
 }
 
 .header__text {
@@ -54,6 +55,8 @@
 @keyframes mymove {
     20%{transform: scale(1.1);}
 }
+
+
 
 
 /* ++++++++++++++++++++ Media Querey   ++++++++++++++++ */
