@@ -5,7 +5,7 @@ import ContactQR from '../../Components/ContactQR';
 const QrContactPage = () => {
   return (
     <> 
-        <QrContact></QrContact>
+        <ContactQR></ContactQR>
     </>
   )
 }
