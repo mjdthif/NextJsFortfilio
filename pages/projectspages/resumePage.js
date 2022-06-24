@@ -1,5 +1,5 @@
 
-import CvComponent from '../Components/CvCompoent/CvComponent';
+import CvComponent from '../../Components/CvComponent.js';
 
 
 const CvPage = () => {
