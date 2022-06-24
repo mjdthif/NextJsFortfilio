@@ -43,7 +43,7 @@ function CvComponent() {
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>    
-                                                <span className={style{style.dotEmpty}></span>    
+                                                <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
