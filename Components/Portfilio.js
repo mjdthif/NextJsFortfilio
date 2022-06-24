@@ -6,10 +6,8 @@ import MdaPic from '../public/Assests/webP/TobiasPic.webp'
 import QrPagePic from '../public/Assests/webP/QrPage.webp'
 import  saraportPic from '../public/Assests/webP/saraportfilio.webp'
 import  mySlide from '../public/Assests/webP/mySlide.webp'
-
 import ViewmoreSetions from './ViewmoreSec';
 import Viewmore from './viewMorebutton/Viewmore'
-import QrPage from '../pages/projectspages/qrGeneratorPage';
 import style from '../styles/portfilio.module.scss';
 
 const Portfilio = () => {
@@ -22,13 +20,16 @@ const Portfilio = () => {
                 <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                      <h2>Review</h2>
-                    <Link href ='/projectspages/slideReviewPage'>
-                       <Image
-                         width="700px"
-                         height="500px" 
-                         alt="Picture of slide review"
-                         src={mySlide}/>
+                    <Link href='/projectspages/slideReviewPage'>
+                          <a>
+                            <Image
+                              width="700px"
+                              height="500px" 
+                              alt="Picture of slide review"
+                              src={mySlide}/>
+                          </a>
                     </Link>
+                
                   </div>
                 </div>
           </div>
@@ -36,12 +37,12 @@ const Portfilio = () => {
               <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                      <h2>Illustrative Sensation</h2>
-                     <a href='https://saraportfilio.com/' target='_blank'>  
+                     <a href='https://saraportfilio.com/' target = "_blank">  
                      <Image
                        width="700px"
                        height="500px" 
-                       alt="Picture of QR illustrative "
-                         src={saraportPic}/>
+                       alt="Picture of QR illustrative"
+                        src={saraportPic}/>
                      </a>
                   </div>
              </div>   
@@ -51,14 +52,16 @@ const Portfilio = () => {
               <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                     <h2>QR Code Generator</h2>
-                     
-                     <Link href ='/projectspages/qrGeneratorPage'>
-                         <Image
-                           width="700px"
-                           height="500px" 
-                           alt="Picture of QR generator"
-                             src={QrPagePic}/>
+                    <Link href='/projectspages/qrGeneratorPage'>
+                          <a>
+                              <Image
+                                width="700px"
+                                height="500px" 
+                                alt="Picture of QR generator"
+                                src={QrPagePic}/>
+                          </a>
                     </Link>
+              
                   </div>
              </div>   
           </div>
@@ -68,13 +71,14 @@ const Portfilio = () => {
               <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                      <h2>M.D.A </h2>
-                    <a href='http://myexprental.online/' target='_blank'>
+
+                  <a href='http://myexprental.online/'  target = "_blank">
                     <Image    
                     width="700px"
                     height="500px"  
                     alt="Picture Mda online"
                     src={MdaPic}/>
-                    </a>
+                  </a>
                   </div>
              </div>   
           </div>
@@ -86,4 +90,5 @@ const Portfilio = () => {
       
   )
 }
+
 export default Portfilio;

@@ -1,4 +1,4 @@
-
+// import {LinkR as Link }from 'react-scroll';
 import Link from 'next/link';
 import { GoOrganization } from "react-icons/go";
 import {BiHomeAlt} from 'react-icons/bi';
@@ -11,13 +11,15 @@ import style from '../styles/navbar.module.scss'
 
 
 
-const StyNav = ({toggle, isOpen,showSocialNav, showSocial}) => {
+const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
 
   return (
     <>
-    <nav className={style.navBar} isOpen={isOpen}>
-                  <span className={style.navToogle} isOpen={isOpen} onClick={toggle} id='navToggle'><BsToggles/></span>
-                                <Link href={"#home"}>
+    <nav className={style.navBar}>
+                  <span className={style.navToogle} onClick={toggle} id='navToggle'><BsToggles/></span>
+
+       
+                                <Link href={"#home"} className={style.navLinks}>
                                     <a className={style.navLinks}>    
                                     <BiHomeAlt/>      
                                     </a>
@@ -45,7 +47,7 @@ const StyNav = ({toggle, isOpen,showSocialNav, showSocial}) => {
                       <span 
                       className={style.sociaToggel}
                       onClick={showSocialNav}
-                      showSocial={showSocial}>    
+                      >    
                       <GoOrganization/>      
                       </span>
       

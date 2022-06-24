@@ -62,8 +62,9 @@
 
 @media screen and  (max-width:1080px) {
     .portfilioContainer{
+        margin: auto;
         grid-template-columns: 100%;
-        padding: 1rem 0rem 10rem 0rem;
+        padding:auto;
     }
    
 }

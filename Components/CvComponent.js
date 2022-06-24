@@ -1,11 +1,9 @@
 import React from 'react';
 import ProjectNav from '../../Projects/ProjectNav/ProjectNav';
-
-
 import me2 from "../../Assests/PNG/me2.webp";
 import QrSocialMedia from '../ContacQR/QrCardSocialMedia/index';
 import Experience from '../Experiences /experiene';
-import './CvComponent.scss';
+import './CvComponent.module.scss';
 
 
 
@@ -41,11 +39,11 @@ function CvComponent() {
                                       </div>
 
                                       <div className='dot-container'>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>    
-                                                <span class="dot-empty"></span>    
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>    
+                                                <span className="dot-empty"></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
@@ -55,11 +53,11 @@ function CvComponent() {
                                       </div>
 
                                       <div className='dot-container'>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>    
-                                                <span class="dot-empty"></span>    
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>    
+                                                <span className="dot-empty"></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
@@ -69,11 +67,11 @@ function CvComponent() {
                                       </div>
 
                                       <div className='dot-container'>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>    
-                                                <span class="dot-empty"></span>    
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>    
+                                                <span className="dot-empty"></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
@@ -83,11 +81,11 @@ function CvComponent() {
                                       </div>
 
                                       <div className='dot-container'>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>    
-                                                <span class="dot-colored"></span>    
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>    
+                                                <span className="dot-colored"></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
@@ -97,11 +95,11 @@ function CvComponent() {
                                       </div>
 
                                       <div className='dot-container'>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-colored"></span>
-                                                <span class="dot-empty"></span>
-                                                <span class="dot-empty"></span>    
-                                                <span class="dot-empty"></span>    
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-colored"></span>
+                                                <span className="dot-empty"></span>
+                                                <span className="dot-empty"></span>    
+                                                <span className="dot-empty"></span>    
                                       </div>
                         </div>
 
