@@ -1,26 +1,21 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import  data from './data';
-import '../project.scss';
+import style from '../../../styles/project.module.scss';
 import SingleQuestion from './Question';
 import ProjectNav from '../ProjectNav/ProjectNav';
 function Accordion() {
   const [questions, setQuestions] = useState(data);
 
-  console.log(questions)
   return (
     <section>
-   
-        {/* <h3>Questions and answers about our services.</h3> */}
-        <main className='accordion-container'>
+        <main className={style.accordion-container}>
           {questions.map((question) => {
             return (
               <SingleQuestion key={question.id} {...question}></SingleQuestion>
             );
           })}
-          <ProjectNav></ProjectNav>
-    
+              <ProjectNav></ProjectNav>
         </main>
-
     </section>
   );
 }

@@ -1,11 +1,11 @@
 
-import Birthday from '../Projects/Birthday /birthday.js';
+import Profiles from "../../Components/Projects/profiles/profiles.js";
 
 
 const BirthdayPage = () => {
   return (
     <> 
-        <Birthday></Birthday>
+        <Profiles></Profiles>
     </>
   )
 }

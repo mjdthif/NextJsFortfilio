@@ -1,7 +1,7 @@
 
 
 import ProjectNav from '../Projects/ProjectNav/ProjectNav' ;
-import meBirlingym from "../../Assests/webP/meBirlingym.webp";
+import meBirlingym from "../../public/Assests/webP/meBirlingym.webp";
 import SocialMediaQr from './SocialMediaQr';
 import style from './ContactQR.module.scss';
 
