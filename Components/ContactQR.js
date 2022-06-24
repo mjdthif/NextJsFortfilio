@@ -1,6 +1,6 @@
 
 
-import ProjectNav from '../../Projects/ProjectNav/ProjectNav';
+import ProjectNav from './Projects/ProjectNav/ProjectNav' ;
 import meBirlingym from "../../Assests/PNG/meBirlingym";
 import QrSocialMedia from './QrCardSocialMedia/index';
 
