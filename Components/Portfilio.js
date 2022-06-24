@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MdaPic from '../public/Assests/webP/TobiasPic.webp'
 import QrPagePic from '../public/Assests/webP/QrPage.webp'
-import  saraportPic from '../public/Assests/webP/saraportfilio.webp'
+import  saraportPic from '../public/Assests/webP/saraPortfilio.webp'
 import  mySlide from '../public/Assests/webP/mySlide.webp'
 import ViewmoreSetions from './ViewmoreSec';
 import Viewmore from './viewMorebutton/Viewmore'

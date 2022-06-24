@@ -1,5 +1,5 @@
 
-import ContactQR from '../../Components/ContactQR';
+import ContactQR from '../../Components/socialmediaQr/ContactQR';
 
 
 const QrContactPage = () => {

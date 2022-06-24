@@ -1,16 +1,14 @@
 
 
 // import Link from 'next/link';
-// import profilePic from '../public/Assests/webP/myPort.webp';
+
 // import mySlide from '../public/Assests/webP/mySlide.webp';
 // import Accordion from '../public/Assests/webP/accordion.webp';
 // import MdaPic from '../public/Assests/webP/TobiasPic.webp';
-
+import Accordion from '../public/Assests/webP/accordion.webp';
+import profilePic from '../public/Assests/webP/myPort.webp';
 import Image from 'next/image';
 import Link from 'next/link';
-import MdaPic from '../public/Assests/webP/TobiasPic.webp'
-import QrPagePic from '../public/Assests/webP/QrPage.webp'
-import  saraportPic from '../public/Assests/webP/saraportfilio.webp'
 import  mySlide from '../public/Assests/webP/mySlide.webp'
 import style from  '../styles/portfilio.module.scss';
 
@@ -27,11 +25,14 @@ const ViewmoreSetions = () => {
                   <div className={style.aboutCard}>
                      <h2>Review</h2>
                     <Link href ='/SlideReview'>
+                    <a>
                     <Image
                          width="700px"
                          height="500px" 
                          alt="Picture of slide review"
                          src={mySlide}/>
+                    </a>
+                 
                     </Link >
                   </div>
                 </div>
@@ -44,11 +45,14 @@ const ViewmoreSetions = () => {
                   <div className={style.aboutCard}>
                      <h2>Porfile Project</h2>
                      <Link href ='/projectspages/slideReviewPage'>
-                       <Image
+                      <a>
+                      <Image
                          width="700px"
                          height="500px" 
                          alt="Picture of slide review"
-                         src={mySlide}/>
+                         src={profilePic}/>
+                      </a>
+                   
                     </Link>
                   </div>
              </div>   
@@ -61,11 +65,14 @@ const ViewmoreSetions = () => {
                   <div className={style.aboutCard}>
                      <h2>Accordion</h2>
                      <Link href ='/projectspages/slideReviewPage'>
+                    <a>  
                        <Image
                          width="700px"
                          height="500px" 
                          alt="Picture of slide review"
-                         src={mySlide}/>
+                         src={Accordion}/>
+                    </a>
+                    
                     </Link>
                   </div>
              </div>   
