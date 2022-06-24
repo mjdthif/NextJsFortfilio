@@ -46,7 +46,7 @@ function CvComponent() {
                                                 <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
-                                <div className='languges'>
+                                <div className={style.languges}>
 
                                       <div className={style.lanText}>
                                             <h2>Swedish</h2>  
@@ -60,7 +60,7 @@ function CvComponent() {
                                                 <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
-                                <div className={languges}>
+                                <div className={style.languges}>
 
                                       <div className={lan-text}>
                                             <h2>Kurdish</h2>  

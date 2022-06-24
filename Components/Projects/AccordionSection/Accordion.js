@@ -8,7 +8,7 @@ function Accordion() {
 
   return (
     <section>
-        <main className={style.accordion-container}>
+        <main className={style.accordionContainer}>
           {questions.map((question) => {
             return (
               <SingleQuestion key={question.id} {...question}></SingleQuestion>
