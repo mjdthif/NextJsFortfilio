@@ -1,10 +1,4 @@
 
-import React, { useState } from 'react';
-import {BsGithub, BsLinkedin, BsSpotify, BsInstagram,BsTwitter, BsPinterest} from 'react-icons/bs';
-import {SiCodewars} from 'react-icons/si';
-import{MdOutlineMailOutline} from 'react-icons/md';
-import {BsWhatsapp,} from 'react-icons/bs';
-import{BiPhoneCall} from'react-icons/bi';
 import './ContactQR.scss';
 import ProjectNav from '../../Projects/ProjectNav/ProjectNav';
 import meBirlingym from "../../Assests/PNG/meBirlingym";
