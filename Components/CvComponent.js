@@ -3,7 +3,7 @@ import ProjectNav from './Projects/ProjectNav/ProjectNav.js';
 import meBirlingym from "../public/Assests/webP/meBirlingym.webp";
 import SocialMediaQr from './socialmediaQr/SocialMediaQr.js';
 import Experience from '../Components/Experiene.js';
-import style from '../styles/CvCompos.module.scss';
+import style from '../styles/cvCompos.module.scss';
 
 
 

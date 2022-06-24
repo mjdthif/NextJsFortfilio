@@ -2,7 +2,7 @@ import React, {useState}from 'react';
 import Signa  from '../../Assests/PNG/Signa.svg';
 import FooterSM from '../FooterSM/FooterSM';
 
-import './footer.scss';
+import './footer.module.scss';
 const Footer = () => {
   return (
     <footer id='footer'>

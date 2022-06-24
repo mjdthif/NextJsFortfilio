@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsGithub, BsLinkedin, BsSpotify, BsInstagram,BsTwitter } from 'react-icons/bs';
 import {SiCodewars} from 'react-icons/si';
-import './FooterSM.scss';
+import './footerSM.scss';
 const FooterSM = () => {
   return (
     <div className='footerSM'>
