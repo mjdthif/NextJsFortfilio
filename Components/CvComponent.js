@@ -38,7 +38,7 @@ function CvComponent() {
                                             <h2>English</h2>  
                                       </div>
 
-                                      <div className='style.dotContainer'>
+                                      <div className={style.dotContainer}>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
@@ -80,7 +80,7 @@ function CvComponent() {
                                             <h2>Arabic</h2>  
                                       </div>
 
-                                      <div className={style.style.dotContainer}>
+                                      <div className={style.dotContainer}>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
@@ -94,7 +94,7 @@ function CvComponent() {
                                             <h2>German</h2>  
                                       </div>
 
-                                      <div className={style.style.dotContainer}>
+                                      <div className={style.dotContainer}>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotColored}></span>
                                                 <span className={style.dotEmpty}></span>
