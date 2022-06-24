@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import data from './data';
 import List from './List';
-import style from '../project.module.scss';
+import style from '../../../styles/project.module.scss';
 import ProjectNav from '../ProjectNav/ProjectNav';
 
 

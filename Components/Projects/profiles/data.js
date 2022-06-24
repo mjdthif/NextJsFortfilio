@@ -1,7 +1,7 @@
-import Pic1 from '../../Assests/PNG/webp4.webp'
-import Pic2 from '../../Assests/PNG/webp1.webp';
-import Pic3 from '../../Assests/PNG/webp2.webp';
-import Pic4 from '../../Assests/PNG/webp3.webp';
+import Pic1 from '../../../public/Assests/webP/meStockholm.webp'
+import Pic2 from '../../../public/Assests/webP/meBirlin.webp';
+import Pic3 from '../../../public/Assests/webP/meStockholm.webp';
+import Pic4 from '../../../public/Assests/webP/myPort.webp';
 
 export default [
   {
