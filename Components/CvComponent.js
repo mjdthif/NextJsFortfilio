@@ -62,7 +62,7 @@ function CvComponent() {
                         </div>
                                 <div className={style.languges}>
 
-                                      <div className={lan-text}>
+                                      <div className={style.lanText}>
                                             <h2>Kurdish</h2>  
                                       </div>
 
