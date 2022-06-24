@@ -1,63 +1,87 @@
-import React from 'react';
-import saraPortfilio from '../../Assests/PNG/saraPortfilio.webp';
-import qrPage from '../../Assests/PNG/QrPage.webp';
-import { Link as LinkR } from 'react-router-dom';
-import mySlide from '../../Assests/PNG/mySlide.webp';
-import Viewmore from '../ViewMore/Viewmore';
-import QrPage from '../../Pages/QrGenerator';
-import MdaPic from '../../Assests/PNG/TobiasPic.webp';
-import './portfilio.scss';
+
+
+import Image from 'next/image';
+import Link from 'next/link';
+import MdaPic from '../public/Assests/webP/TobiasPic.webp'
+import QrPagePic from '../public/Assests/webP/QrPage.webp'
+import  saraportPic from '../public/Assests/webP/saraportfilio.webp'
+import  mySlide from '../public/Assests/webP/mySlide.webp'
+
+import ViewmoreSetions from './ViewmoreSec';
+import Viewmore from './viewMorebutton/Viewmore'
+import QrPage from '../pages/projectspages/qrGeneratorPage';
+import style from '../styles/portfilio.module.scss';
 
 const Portfilio = () => {
   return (
     <>
-    <section id='portfilio' className='container'>
-        <div  className="portfilioContainer">
+    <section id='portfilio' className={style.container}>
+        <div  className={style.portfilioContainer}>
 
-          <div className="about__content">
-                <div className="about__cards">
-                  <div className="about-card">
+          <div className={style.aboutContent}>
+                <div className={style.aboutCards}>
+                  <div className={style.aboutCard}>
                      <h2>Review</h2>
-                    <LinkR to ='/SlideReviewPage'>
-                       <img src={mySlide} alt={'myPic'} />
-                    </LinkR>
+                    <Link href ='/projectspages/slideReviewPage'>
+                       <Image
+                         width="700px"
+                         height="500px" 
+                         alt="Picture of slide review"
+                         src={mySlide}/>
+                    </Link>
                   </div>
                 </div>
           </div>
-          <div className="about__content">
-              <div className="about__cards">
-                  <div className="about-card">
+          <div className={style.aboutContent}>
+              <div className={style.aboutCards}>
+                  <div className={style.aboutCard}>
                      <h2>Illustrative Sensation</h2>
                      <a href='https://saraportfilio.com/' target='_blank'>  
-                     <img  src={saraPortfilio}/>
+                     <Image
+                       width="700px"
+                       height="500px" 
+                       alt="Picture of QR illustrative "
+                         src={saraportPic}/>
                      </a>
                   </div>
              </div>   
           </div>
-          <div className="about__content">
-              <div className="about__cards">
-                  <div className="about-card">
+       
+          <div className={style.aboutContent}>
+              <div className={style.aboutCards}>
+                  <div className={style.aboutCard}>
                     <h2>QR Code Generator</h2>
                      
-                     <LinkR to ='/QrGenerator'>
-                         <img  src={qrPage}/>
-                    </LinkR>
+                     <Link href ='/projectspages/qrGeneratorPage'>
+                         <Image
+                           width="700px"
+                           height="500px" 
+                           alt="Picture of QR generator"
+                             src={QrPagePic}/>
+                    </Link>
                   </div>
              </div>   
           </div>
-          <div className="about__content">
-              <div className="about__cards">
-                  <div className="about-card">
+  
+    
+          <div className={style.aboutContent}>
+              <div className={style.aboutCards}>
+                  <div className={style.aboutCard}>
                      <h2>M.D.A </h2>
                     <a href='http://myexprental.online/' target='_blank'>
-                    <img  src={MdaPic}/>
+                    <Image    
+                    width="700px"
+                    height="500px"  
+                    alt="Picture Mda online"
+                    src={MdaPic}/>
                     </a>
                   </div>
              </div>   
           </div>
         </div>
     </section>
-    <Viewmore/>
+    <Viewmore viewMoreSec = {<ViewmoreSetions/>}/>
+
     </>
       
   )

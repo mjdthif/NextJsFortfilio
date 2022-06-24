@@ -1,6 +1,6 @@
-import React from 'react';
+
 import Accordion from '../Projects/AccordionSection/Accordion.js';
-import Birthday from '../Projects/Birthday /birthday.js';
+import Birthday from '../Projects/';
 
 const AccordionPage = () => {
   return (

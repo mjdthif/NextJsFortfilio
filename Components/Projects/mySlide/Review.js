@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import{ useState } from 'react';
+import Image from 'next/image';
 import people from './data';
-import '../project.scss';
 import ProjectNav from '../ProjectNav/ProjectNav';
 import  { AiOutlineArrowRight, AiOutlineArrowLeft }  from 'react-icons/ai';
 import {FaQuoteRight} from 'react-icons/fa';
+import style from '../../../styles/project.module.scss';
+
+
+
 const Review = () => {
   const [index, setIndex] = useState(0);
   // const  [autoCounter, setAutoCounter ]= useState(false);
@@ -45,21 +49,26 @@ const Review = () => {
 
 
   return (
-    <article className='review'>
-      <div className='img-container'>
-        <img src={image} alt={name} className='person-img' />
-        <span className='quote-icon'>
+    <article className={style.review}>
+      <div className={style.imgContainer}>
+        <Image 
+        width="75px"
+        height="75px"  
+        src={image}
+         alt={name} 
+         className={style.personImg}/>
+        <span className={style.quoteIcon}>
           <FaQuoteRight />
         </span>
       </div>
-      <h4 className='author'>{name}</h4>
-      <p className='job'>{job}</p>
-      <p className='info'>{text}</p>
-      <div className='button-container'>
-        <button className='prev-btn' onClick={prevPerson}>
+      <h4 className={style.author}>{name}</h4>
+      <p className={style.job}>{job}</p>
+      <p className={style.info}>{text}</p>
+      <div className={style.buttonContainer}>
+        <button className={style.prevBtn} onClick={prevPerson}>
           <AiOutlineArrowLeft />
         </button>
-        <button className='next-btn' onClick={nextPerson}>
+        <button className={style.nextBtn} onClick={nextPerson}>
           <AiOutlineArrowRight />
         </button>
  

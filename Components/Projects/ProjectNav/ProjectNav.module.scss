@@ -6,7 +6,7 @@
     padding: 0rem;
     border-radius: 3rem;
 }
-.projectNav a {
+.projectNavLink {
     color:orange;
     background-color: gray;
     font-size: 3rem;
@@ -16,7 +16,7 @@
     display: flex;
 }
 .projectNav a:hover{
-    background-color: rgba(167, 131, 33, 0.574);
+    background-color: rgba(162, 158, 158, 0.506);
 }
 .projectNav a.active{
     background-color: rgba(192, 181, 181, 0.3);

@@ -33,6 +33,7 @@
 
 html::-webkit-scrollbar {
   display: none;
+  scroll-behavior: smooth;
 }
 html, body{
   -ms-overflow-style: none;  /* IE and Edge */
@@ -60,6 +61,11 @@ h2 {
 h1, h2, h3, h4, h5{
   font-weight: 500;
 }
+
+
+
+
+
 
 
 

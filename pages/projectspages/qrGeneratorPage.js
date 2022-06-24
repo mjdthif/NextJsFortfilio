@@ -1,5 +1,5 @@
-import React from 'react';
-import Qrcode from '../Projects/QrCodeGenerator/QrGenerator';
+
+import Qrcode from '../../Components/Projects/QrCodeGenerator/QrGenerator.js';
 
 
 const  QrPage = () => {

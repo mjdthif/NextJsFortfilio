@@ -1,11 +1,13 @@
-import React from 'react';
+
 import Review from './Review';
-import '../project.scss';
+
+import style from '../../../styles/project.module.scss';
+
 function SlideReviewApp() {
   return (
-    <main className='review-main'>
-      <section className='review-container'>
-        <div className='title'>
+    <main className={style.reviewMain}>
+      <section className={style.reviewContainer}>
+        <div className={style.title}>
         </div>
         <Review />
       </section>

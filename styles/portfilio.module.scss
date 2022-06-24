@@ -2,7 +2,6 @@
 
 .portfilioContainer{
     /* background-color: red; */
-        
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 2%;
@@ -16,13 +15,13 @@
     margin: inherit;
     padding: inherit;
 }
-.about__content{
-  
+.aboutContent{
+
     height: auto;
     padding: auto;
     border-radius: 0.5rem;
 }
-.about__cards{
+.aboutCards{
    
     backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.2);
@@ -33,15 +32,14 @@
 
 
 }
-.about-card{
-   
+.aboutCard{
     align-items: center;
     text-align: center;
     padding: 1rem;
     border-radius: 0.1rem;
     border: 1px solid white;
 }
-.about-card:hover{
+.aboutCard:hover{
     border-color: gold;
 }
 .portfilioContainer img{
@@ -52,6 +50,8 @@
     object-fit:cover;
     margin-bottom: 1rem;
 }
+
+
 
 
  /*================================================== Media query  */

@@ -4,7 +4,7 @@
 
 /* the accordion style section  */
 
-.accordion-container{
+.accordionContainer{
     min-height: 100vh;
     width: 100%;
     max-width: 600px;
@@ -41,27 +41,24 @@
     margin-bottom: 0;
   }
 
-
-
-
-
    /*======= review style section ========= */
-  .review-container{
-    background: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 1000px;
-    border-radius: 1rem;
+  .reviewContainer{
+    background: rgba(30, 106, 157, 0.411);
+
   }
-  
+
   .review {
     background: rgba(0, 0, 0, 0.2);
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 600px;
     padding: 1.5rem 2rem;
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
     transition: var(--transition);
     text-align: center;
   }
-  .review-main{
+  .reviewMain{
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -75,7 +72,7 @@
     margin-bottom: 4rem;
   }
 
-.img-container {
+.imgContainer {
   position: relative;
   width: 150px;
   height: 150px;
@@ -83,7 +80,7 @@
   margin: 0 auto;
   margin-bottom: 1.5rem;
 }
-.person-img {
+.personImg {
   width: 100%;
   display: block;
   height: 100%;
@@ -91,7 +88,7 @@
   border-radius: 50%;
   position: relative;
 }
-.quote-icon {
+.quoteIcon {
   position: absolute;
   top: 0;
   left: 0;
@@ -104,7 +101,7 @@
   background: var(--color-primary);
   color: var(--clr-white);
 }
-.img-container::before {
+.imgContainer::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -126,8 +123,8 @@
 .info {
   margin-bottom: 0.75rem;
 }
-.prev-btn,
-.next-btn {
+.prevBtn,
+.nextBtn {
   color: var(--clr-primary-7);
   font-size: 3rem;
   background: transparent;
@@ -136,11 +133,11 @@
   transition: var(--transition);
   cursor: pointer;
 }
-.prev-btn:hover,
-.next-btn:hover {
+.prevBtn:hover,
+.nextBtn:hover {
   color: var(--clr-primary-5);
 }
-.random-btn {
+.randomBtn {
   margin-top: 0.5rem;
   background: var(--clr-primary-10);
   color: var(--clr-primary-5);
@@ -151,20 +148,13 @@
   border-color: transparent;
   cursor: pointer;
 }
-.random-btn:hover {
+.randomBtn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
 
 
-
-
-
-
-
-
-
-  /* // Birthday section sytle  */
+  /* // profile section sytle  */
 
   .containerBirthday {
     color: rgb(0, 0, 0);
@@ -187,20 +177,14 @@
     margin-bottom: 1.5rem;
     align-items: center;
   }
-  .person img {
-    width: 75px;
-    height: 75px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: var(--light-shadow);
-  }
+ 
   .person h4 {
     margin-bottom: 0.35rem;
   }
   .person p {
     margin-bottom: 0;
   }
-  .birthday-btn  {
+  .birthdayBtn  {
     color: white;
     display: block;
     width: 100%;

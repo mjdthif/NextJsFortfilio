@@ -1,0 +1,28 @@
+
+
+.viewmoreBtn{
+    background-color: rgba(242, 242, 242, 0.462);
+    font-size: 1rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    padding:2rem 1rem;
+    border-radius: 50%;
+    border: none;
+}
+.viewmoreIcon{
+    font-size: 1rem;
+}
+.viewmoreBtn:hover{
+    background-color: rgba(189, 166, 38, 0.69);
+}
+
+
+@media screen and (max-width:800px){
+.viewmoreBtn{
+    margin-top:1rem;
+}
+}

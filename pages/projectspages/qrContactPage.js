@@ -1,5 +1,5 @@
-import React from 'react';
-import QrContact from '../Components/ContacQR/index';
+
+import ContactQR from '../../Components/ContactQR';
 
 
 const QrContactPage = () => {

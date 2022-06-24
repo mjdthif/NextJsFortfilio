@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Image from 'next/image';
 import style from '../styles/profilePic.module.scss';
-import ProfileImage from '../public/Assests/webP/me2.webP'
+import ProfileImage from '../public/Assests/webP/meBirlingym.webp'
 
 
 const ProfilePic  = () => {

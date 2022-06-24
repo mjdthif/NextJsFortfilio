@@ -1,5 +1,5 @@
 import React from 'react'
-import SlideReviewApp from '../Projects/mySlide/SlideReviewApp'
+import SlideReviewApp from '../../Components/Projects/mySlide/SlideReviewApp'
 
 const SlideReviewPage = () => {
   return (
