@@ -1,9 +1,9 @@
-import React from 'react';
-import ProjectNav from '../../Projects/ProjectNav/ProjectNav';
-import me2 from "../../Assests/PNG/me2.webp";
-import QrSocialMedia from '../ContacQR/QrCardSocialMedia/index';
-import Experience from '../Experiences /experiene';
-import './CvComponent.module.scss';
+
+import ProjectNav from './Projects/ProjectNav/ProjectNav.js';
+import meBirlingym from "../public/Assests/webP/meBirlingym.webp";
+import SocialMediaQr from './socialmediaQr/SocialMediaQr.js';
+import Experience from '../Components/Experiene.js';
+import style from '../styles/CvCompos.module.scss';
 
 
 
@@ -15,91 +15,91 @@ import './CvComponent.module.scss';
 function CvComponent() {
 
   return(
-        <div className='page-container'>
-            <div className='cv-container'>
-                  <div className='col1'>
+        <div className={style.pageContainer}>
+            <div className={style.cvContainer}>
+                  <div className={style.col1}>
                   <ProjectNav/>
-                      <div className='person' >
-                        <img src={me2}/>
+                      <div className={style.person}>
+                        <img src={meBirlingym}/>
                         <h2>Mjd Thif<hr/></h2>
                       </div>
 
                         <div>   
-                            <QrSocialMedia></QrSocialMedia>
+                            <SocialMediaQr></SocialMediaQr>
                         </div>
                       <hr/>
 
 
 
-                      <div className='lan-container'>
-                                <div className='languges'>
+                      <div className={style.lanContainer}>
+                                <div className={style.languges}>
 
-                                      <div className='lan-text'>
+                                      <div className={style.lanText}>
                                             <h2>English</h2>  
                                       </div>
 
-                                      <div className='dot-container'>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>    
-                                                <span className="dot-empty"></span>    
+                                      <div className='dotContainer'>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>    
+                                                <span className={style{style.dotEmpty}></span>    
                                       </div>
                         </div>
                                 <div className='languges'>
 
-                                      <div className='lan-text'>
+                                      <div className={style.lanText}>
                                             <h2>Swedish</h2>  
                                       </div>
 
-                                      <div className='dot-container'>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>    
-                                                <span className="dot-empty"></span>    
+                                      <div className={dotContainer}>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>    
+                                                <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
-                                <div className='languges'>
+                                <div className={languges}>
 
-                                      <div className='lan-text'>
+                                      <div className={lan-text}>
                                             <h2>Kurdish</h2>  
                                       </div>
 
-                                      <div className='dot-container'>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>    
-                                                <span className="dot-empty"></span>    
+                                      <div className={dotContainer}>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>    
+                                                <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
-                                <div className='languges'>
+                                <div className={style.languges}>
 
-                                      <div className='lan-text'>
+                                      <div className={style.lanText}>
                                             <h2>Arabic</h2>  
                                       </div>
 
-                                      <div className='dot-container'>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>    
-                                                <span className="dot-colored"></span>    
+                                      <div className={style.dotContainer}>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>    
+                                                <span className={style.dotColored}></span>    
                                       </div>
                         </div>
-                                <div className='languges'>
+                                <div className={style.languges}>
 
-                                      <div className='lan-text'>
+                                      <div className={style.lanText}>
                                             <h2>German</h2>  
                                       </div>
 
-                                      <div className='dot-container'>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-colored"></span>
-                                                <span className="dot-empty"></span>
-                                                <span className="dot-empty"></span>    
-                                                <span className="dot-empty"></span>    
+                                      <div className={style.dotContainer}>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotColored}></span>
+                                                <span className={style.dotEmpty}></span>
+                                                <span className={style.dotEmpty}></span>    
+                                                <span className={style.dotEmpty}></span>    
                                       </div>
                         </div>
 
@@ -107,7 +107,7 @@ function CvComponent() {
                     </div>
 
 
-                      <div className='extracurricu'>
+                      <div className={style.extracurri}>
                           <h2> Extracurricular</h2>
                           <hr/>
                         <div>
@@ -138,8 +138,8 @@ function CvComponent() {
                     
                     
                   </div>
-                  <div className='col2'>
-                      <article className='main-header'>
+                  <div className={style.col2}>
+                      <article className={style.mainHeader}>
                       _ Web develOver.<br/>
 Highly focused and meticulous Intermediate Level JS Developer with 5 years in the industry. 
 Proficient with React and all its dependencies. I use React and Angular to Create data visualization tools and integrated designs. 
@@ -150,15 +150,15 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
 
 
 
-                      <div className='section-title'>
+                      <div className={style.sectionTitle}>
                           <h2>EDUCATION</h2>
                           <hr/>
                       </div>
 
                     
 
-                    <div className='main-part'>
-                    <div class="vl"></div>
+                    <div className={style.mainPart}>
+                    <div className={style.vl}></div>
                             <div>
                                   <article>
                                       <h2>IT Support Technician at Lexicon AB.</h2>  
@@ -185,15 +185,15 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                               </div>
                           </div>
 
-                      <div className='section-title'>
+                      <div className={style.sectionTitle}>
                           <h2>ONLINE COURSES</h2>
                           <hr/>
                       </div>
 
                     
 
-                    <div className='main-part'>
-                    <div class="vl"></div>
+                    <div className={style.mainPart}>
+                    <div class={style.vl}></div>
                             <div>
                               
                                   <article>
@@ -208,7 +208,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                                      In this courese, we went through Descriptive Statistics and learned SQL to preform data analysis.
                                   </article>
                                   <article>
-                                      <h2>REACT '&' REDUX '&' NATIVE </h2>  
+                                      <h2>REACT  REDUX  NATIVE </h2>  
                                       I have mastered the necessary skills to develop with React. 
                                       I went on a project- based learning journey and I built declarative user interfaces (UI components) for web applications.
                                        During the course I made the state more predictable in components's applications with Redux, and also made the apps more efficient and robust using newer React features like hooks and the Jest testing library. 
@@ -266,12 +266,12 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                           </div>
 
 
-                      <div className='section-title'>
+                      <div className={style.sectionTitle}>
                           <h2>WORK EXPERIENCE</h2>
                           <hr/>
                       </div>
 
-                    <div className='main-part'>
+                    <div className={style.mainPart}>
                     <div class="vl"/>
                               <div>
                                   <article>
@@ -279,7 +279,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                                 WordPress Customization, HTML5 UI And Animation, MVC Architecture, Object- oriented Programming, AJAX, PHP And JavaScript Frameworks, Content Management Systems, Web Design, MySQL/MongoDB Database. 
                                 <ul>
                                     <li>- Handling all verbal and written communications between hosting companies, clients, and vendors.</li>
-                                    <li>- Meeting with the prospective clients to review website, and gather the client’s specifications for new or existing websites.</li>
+                                    <li>- Meeting with the prospective clients to review website, and gather the client's specifications for new or existing websites.</li>
                                     <li>- Designing, coding websites using CSS, XHTML, javascript, jquery and Next.js. - Built designed and maintained websies using Joomla CMS System with CSS, XHTML, Javascript, PHP.</li>
                                     <li>- Built, designed and maintained websites using CSS, XHTML, javascript, PHP. - Designing and implementing the front-end using HTML5, CSS3, jQuery, AngularJS.</li>
                                     <li>- Built custom websites using Bootstrap and WordPress.</li>
@@ -326,12 +326,12 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                      
                       </div>
 
-                      <div className='section-title'>
+                      <div className={style.sectionTitle}>
                           <h2>SOFTWARE</h2>
                           <hr/>
                       </div>
                     
-                      <div className='software-sec'>
+                      <div className={style.softwareSec}>
                       
                           <Experience/> 
                       </div>
