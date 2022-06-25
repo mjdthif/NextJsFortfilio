@@ -1,15 +1,18 @@
 
+// elements importing
+import Link from 'next/link';
+import Image from 'next/image';
 
-// import Link from 'next/link';
 
-// import mySlide from '../public/Assests/webP/mySlide.webp';
-// import Accordion from '../public/Assests/webP/accordion.webp';
-// import MdaPic from '../public/Assests/webP/TobiasPic.webp';
+// picture importing 
+import mySlide from '../public/Assests/webP/mySlide.webp';
+import MdaPic from '../public/Assests/webP/TobiasPic.webp';
 import Accordion from '../public/Assests/webP/accordion.webp';
 import profilePic from '../public/Assests/webP/myPort.webp';
-import Image from 'next/image';
-import Link from 'next/link';
-import  mySlide from '../public/Assests/webP/mySlide.webp'
+
+
+
+// style importing
 import style from  '../styles/portfilio.module.scss';
 
 
@@ -24,7 +27,7 @@ const ViewmoreSetions = () => {
                 <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                      <h2>Review</h2>
-                    <Link href ='/SlideReview'>
+                    <Link href ='/projectspages/SlideReview'>
                     <a>
                     <Image
                          width="700px"
@@ -32,7 +35,6 @@ const ViewmoreSetions = () => {
                          alt="Picture of slide review"
                          src={mySlide}/>
                     </a>
-                 
                     </Link >
                   </div>
                 </div>
@@ -43,8 +45,8 @@ const ViewmoreSetions = () => {
           <div className={style.aboutContent}>
               <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
-                     <h2>Porfile Project</h2>
-                     <Link href ='/projectspages/slideReviewPage'>
+                     <h2>Porfiles</h2>
+                     <Link href ='/projectspages/profilesPage'>
                       <a>
                       <Image
                          width="700px"
@@ -72,7 +74,6 @@ const ViewmoreSetions = () => {
                          alt="Picture of slide review"
                          src={Accordion}/>
                     </a>
-                    
                     </Link>
                   </div>
              </div>   

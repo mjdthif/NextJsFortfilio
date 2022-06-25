@@ -1,7 +1,7 @@
 import Pic1 from '../../../public/Assests/webP/meStockholm.webp'
 import Pic2 from '../../../public/Assests/webP/meBirlin.webp';
-import Pic3 from '../../../public/Assests/webP/meStockholm.webp';
-import Pic4 from '../../../public/Assests/webP/myPort.webp';
+import Pic3 from '../../../public/Assests/webP/meBirlingym.webp';
+import Pic4 from '../../../public/Assests/webP/meUppsala.webp';
 
 export default [
   {
@@ -21,7 +21,7 @@ export default [
     id: 3,
     name: 'Najem Deif',
     age: 36,
-    image:Pic4, 
+    image:Pic3, 
   },
   {
     id: 4,
@@ -29,10 +29,5 @@ export default [
     age: 34,
     image:Pic4,
   },
-  {
-    id: 5,
-    name: 'Fadi Sima ',
-    age: 29,
-    image:Pic4, 
-  },
+
 ];

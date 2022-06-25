@@ -2,11 +2,11 @@
 import Profiles from "../../Components/Projects/profiles/profiles.js";
 
 
-const BirthdayPage = () => {
+const ProfilesPage = () => {
   return (
     <> 
         <Profiles></Profiles>
     </>
   )
 }
-export default BirthdayPage;
+export default ProfilesPage;
