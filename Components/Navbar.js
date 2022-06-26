@@ -1,4 +1,5 @@
-// import {LinkR as Link }from 'react-scroll';
+
+import{useState, useEffect} from 'react';
 import Link from 'next/link';
 import { GoOrganization } from "react-icons/go";
 import {BiHomeAlt} from 'react-icons/bi';
@@ -7,18 +8,40 @@ import { FaUniversity  } from "react-icons/fa";
 import {AiOutlineExperiment, AiFillContacts} from 'react-icons/ai';
 
 import style from '../styles/navbar.module.scss'
+import {
+      navToggleIsOpen, 
 
+}from '../styles/navbar.module.scss';
 
 
 
 const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
 
-  return (
-    <>
-    <nav className={style.navBar}>
-                  <span className={style.navToogle} onClick={toggle} id='navToggle'><BsToggles/></span>
 
-       
+
+      const reversScrolling = () =>{
+            if (window.scrollY >= 0 && isOpen){
+                  toggle()
+            
+    
+              // setShowSocial(false)           
+              // console.log('the is the reverse scrolling')
+              // setToggleSocial(false)
+              // console.log(showSocial)
+            }
+          };
+          
+          useEffect(()=>{
+            window.addEventListener('scroll', reversScrolling)
+      }, [isOpen])
+          
+  return (
+      
+    <>
+    <nav className={ isOpen ? navToggleIsOpen : style.navBar}>
+        
+                  <span className={style.navToogle} onClick={toggle}><BsToggles/></span>
+                                   
                                 <Link href={"#home"} className={style.navLinks}>
                                     <a className={style.navLinks}>    
                                     <BiHomeAlt/>      

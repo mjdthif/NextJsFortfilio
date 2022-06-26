@@ -1,8 +1,7 @@
 .container{
     height:100vh;
-    margin-top:5rem ;
     align-items: center;
-    margin: auto;
+    margin:5rem auto;
 }
 
 .expBox{
@@ -17,7 +16,6 @@
 }
 .expContainer{
     margin:auto;
-    // background-color: rgba(165, 144, 144, 0.164);
     display: grid;
     grid-template-columns: 100%;
     width: 100%;

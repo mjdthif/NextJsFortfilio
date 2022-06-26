@@ -11,12 +11,13 @@ const Layout = ({children}) => {
 
 //=======================Global Functionallities be resued through out our app.======================. 
 
-//   const [ isOpen , setIsOpen] = useState(false)
-//   const [ navSocial, setNavSocial]  = useState(false);
+  const [ isOpen , setIsOpen] = useState(false)
+  const [ navSocial, setNavSocial]  = useState(false);
 
-//   const toggle = () => {
-//     setIsOpen(!isOpen)
-//   };
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  
+  };
  
 // const toggleSocialNav  =  ()=>{
 //   setToggleSocial(!toggleSocial)
@@ -24,13 +25,15 @@ const Layout = ({children}) => {
 
 // const reversScrolling = () =>{
 //   if (window.scrollY >= 0){
+//       if(isOpen===true){
+//          toggle()
+//       }
 //     // setShowSocial(false)
 //     // console.log('the is the reverse scrolling')
-//     setToggleSocial(false)
+//     // setToggleSocial(false)
 //     // console.log(showSocial)
 //   }
 // };
-
 
 // useEffect(()=>{
 //   window.addEventListener('scroll', reversScrolling)

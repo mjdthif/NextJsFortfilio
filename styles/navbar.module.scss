@@ -74,32 +74,54 @@
 // };
 
 // ===============responsive media quirey 
+
+
 @media screen and (max-width : 800px ) {
     .navBar{
         display: flex;
         flex-direction:row;
         position:fixed;
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 3rem;
         top: 1%;
         bottom: 92%;
+        left:84%;
         right: -10%;
-        // left: ${({isOpen}) => (isOpen ? '10%' : '83%') };
         padding: 0rem 1rem;
         align-items: center;
         z-index: 10;
     }
-    .navToogle{
+    .navToggleIsOpen{
         display: flex;
+        flex-direction:row;
+        position:fixed;
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 3rem;
+        top: 1%;
+        bottom: 92%;
+        left:15%;
+        right: -10%;
+        padding: 0rem 1rem;
+        align-items: center;
+        z-index: 10;
+    } 
+    .navToogle{
+        cursor: pointer;
+        display: flex;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        };
     }
     .navLinks{
-
+        padding:0.9rem;
     }
 
     .sociaToggel{
 
     }
 }
-
-
 
 
 
