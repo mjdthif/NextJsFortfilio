@@ -53,7 +53,8 @@ useEffect(()=>{
       <StyNav  toggle={toggle} isOpen={isOpen} setNavSocial={setNavSocial} navSocial={navSocial} toggleSocialNav={toggleSocialNav}></StyNav> 
       <Portfilio></Portfilio>
       <Experience></Experience>
-      <Contact></Contact>
+      <Contact>j</Contact>
+
       {/* <SocialMedia showSocial={showSocial}></SocialMedia>
      
       <Contact></Contact>
