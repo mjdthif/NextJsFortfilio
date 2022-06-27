@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+.FooterLinks li{
+  font-size: 1rem;
+
+}
+.FooterLinks a {
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.footerCopyright{
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid none;
+    text-align: center;
+    padding: 2rem 0rem;
+    margin: auto;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns:100%;
+    align-items: center;
+    backdrop-filter: blur(14px);
+}
+
+
+
+.footerSM{
+  display:none;
+}
+@media screen and (max-width:800px){
+  .footerSM {
+      display:flex;
+      margin: auto;
+      margin-top:3rem;
+      z-index: 5;
+  }
+  .footerSM > a  { 
+      color: rgb(255, 255, 255);
+      padding:1rem;
+      font-size: 1.4rem;
+      cursor: pointer;
+  }
+  .footerSM > a:hover{
+      color:var(--color-primary);
+  }
+}
+
+//==================== Media qurey. 
+@media screen and (max-width:800px){
+  .footer__copyright{
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+

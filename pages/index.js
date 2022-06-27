@@ -6,17 +6,11 @@ import Header from '../Components/Header';
 import StyNav from  '../Components/Navbar'
 import Portfilio from '../Components/Portfilio';
 import Experience from '../Components/Experiene';
-import Contact from '../Components/Contact/contact'
+import Contact from '../Components/Contact/contact';
+import Footer from '../Components/footer/Footer';
 
 
 
-// import React, {useState,useEffect, forwardRef,useRef,createRef} from 'react';
-// import { BrowserRouter as router } from "react-router-dom";
-
-// import StyNav from '../Components/NavbarStyled/index';
-// import Contact from '../Components/Contact/contact';
-// import SocialMedia from '../Components/Socialmedia/index';
-// import Footer from '../Components/Footer/footer.js';
 
 
 export default function Home() {
@@ -53,12 +47,9 @@ useEffect(()=>{
       <StyNav  toggle={toggle} isOpen={isOpen} setNavSocial={setNavSocial} navSocial={navSocial} toggleSocialNav={toggleSocialNav}></StyNav> 
       <Portfilio></Portfilio>
       <Experience></Experience>
-      <Contact>j</Contact>
-
-      {/* <SocialMedia showSocial={showSocial}></SocialMedia>
-     
       <Contact></Contact>
-      <Footer></Footer> */}
+      <Footer></Footer>
+   
     </>
   )
 }
