@@ -48,7 +48,7 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
                               <LinkR  to='home'
                                     className={style.navLinks}
                                     spy={true} smooth={true} offset={50} duration={1000}
-                                    activeClass="active">    
+                                    activeClass={style.active}>    
                                     <BiHomeAlt/>     
                               </LinkR >
                                 
@@ -56,21 +56,21 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
                                 <LinkR  to='portfilio'
                                     className={style.navLinks}
                                     spy={true} smooth={true} offset={50} duration={1000}
-                                    activeClass="active">    
+                                    activeClass={style.active}>    
                                     <FaUniversity/>     
                               </LinkR >
                                 
                               <LinkR  to='experience'
                                 className={style.navLinks}
                                 spy={true} smooth={true} offset={50} duration={1000}
-                                activeClass="active">    
+                                activeClass={style.active}>    
                                   <AiOutlineExperiment/>     
                               </LinkR >
 
                               <LinkR  to='contact'
                                 className={style.navLinks}
                                 spy={true} smooth={true} offset={50} duration={1000}
-                                activeClass="active">    
+                                activeClass={style.active}>    
                                   <AiFillContacts/>     
                               </LinkR >
                               

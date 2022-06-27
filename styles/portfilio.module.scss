@@ -1,7 +1,6 @@
 
 
 .portfilioContainer{
-    /* background-color: red; */
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 2%;
@@ -9,6 +8,7 @@
     width: 100%;
     margin:4rem auto;
     padding: 1rem 3rem;
+    padding-top: 5rem;
 
 }
 .viewMoreContainer{
@@ -16,7 +16,6 @@
     padding: inherit;
 }
 .aboutContent{
-
     height: auto;
     padding: auto;
     border-radius: 0.5rem;
@@ -67,6 +66,7 @@
 @media screen and  (max-width:700px) {
     .portfilioContainer{
         padding:1rem  0.1rem; 
+        padding-top: 7rem;
         gap: 1%;
     }
 

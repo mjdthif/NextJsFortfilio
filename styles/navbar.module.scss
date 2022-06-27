@@ -15,6 +15,9 @@
     background: rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
 }
+.active{
+    background-color: rgba(147, 138, 138, 0.3);
+}
 
 
 .navToogle {
@@ -33,9 +36,6 @@
     margin:1rem 0rem;
     border-radius: 50%;
     display: flex;
-    &:active{
-        background-color: rgba(147, 138, 138, 0.3);
-    }
     &:hover {
         background-color: rgba(0, 0, 0, 0.3);
     };

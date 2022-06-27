@@ -4,8 +4,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../Components/Header';
 import StyNav from  '../Components/Navbar'
-import Experience from '../Components/Experiene';
 import Portfilio from '../Components/Portfilio';
+import Experience from '../Components/Experiene';
+import Contact from '../Components/Contact/contact'
+
+
 
 // import React, {useState,useEffect, forwardRef,useRef,createRef} from 'react';
 // import { BrowserRouter as router } from "react-router-dom";
@@ -50,6 +53,7 @@ useEffect(()=>{
       <StyNav  toggle={toggle} isOpen={isOpen} setNavSocial={setNavSocial} navSocial={navSocial} toggleSocialNav={toggleSocialNav}></StyNav> 
       <Portfilio></Portfilio>
       <Experience></Experience>
+      <Contact></Contact>
       {/* <SocialMedia showSocial={showSocial}></SocialMedia>
      
       <Contact></Contact>
