@@ -1,5 +1,6 @@
 
 import{useState, useEffect} from 'react';
+import {Link as LinkR} from 'react-scroll';
 import Link from 'next/link';
 import { GoOrganization } from "react-icons/go";
 import {BiHomeAlt} from 'react-icons/bi';
@@ -42,26 +43,36 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
         
                   <span className={style.navToogle} onClick={toggle}><BsToggles/></span>
                                    
-                                <Link href={"#home"} className={style.navLinks}>
-                                    <a className={style.navLinks}>    
-                                    <BiHomeAlt/>      
-                                    </a>
-                                </Link > 
-                                <Link href={"#portfilio"}>  
-                                      <a  className={style.navLinks}>    
-                                      <FaUniversity/>      
-                                      </a>
-                                </Link>
-                                <Link href={"#experience"}>    
-                                      <a href='experience'  className={style.navLinks}>    
-                                      <AiOutlineExperiment/>      
-                                      </a>
-                                </Link >
-                                <Link href={"#contact"}>
-                                      <a className={style.navLinks}>    
-                                      <AiFillContacts/>      
-                                      </a>
-                                </Link>
+                  
+
+                              <LinkR  to='home'
+                                    className={style.navLinks}
+                                    spy={true} smooth={true} offset={50} duration={1000}
+                                    activeClass="active">    
+                                    <BiHomeAlt/>     
+                              </LinkR >
+                                
+
+                                <LinkR  to='portfilio'
+                                    className={style.navLinks}
+                                    spy={true} smooth={true} offset={50} duration={1000}
+                                    activeClass="active">    
+                                    <FaUniversity/>     
+                              </LinkR >
+                                
+                              <LinkR  to='experience'
+                                className={style.navLinks}
+                                spy={true} smooth={true} offset={50} duration={1000}
+                                activeClass="active">    
+                                  <AiOutlineExperiment/>     
+                              </LinkR >
+
+                              <LinkR  to='contact'
+                                className={style.navLinks}
+                                spy={true} smooth={true} offset={50} duration={1000}
+                                activeClass="active">    
+                                  <AiFillContacts/>     
+                              </LinkR >
                               
 
                              
