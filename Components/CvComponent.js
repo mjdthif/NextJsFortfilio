@@ -1,4 +1,4 @@
-
+import Image from 'next/image.js';
 import ProjectNav from './Projects/ProjectNav/ProjectNav.js';
 import meBirlingym from "../public/Assests/webP/meBirlingym.webp";
 import SocialMediaQr from './socialmediaQr/SocialMediaQr.js';
@@ -20,8 +20,8 @@ function CvComponent() {
                   <div className={style.col1}>
                   <ProjectNav/>
                       <div className={style.person}>
-                        <img src={meBirlingym}/>
-                        <h2>Mjd Thif<hr/></h2>
+                        <Image width={'100px'} height={'100px'} alt="Resume piture of Mjd Thif" className={style.cvIamge} src={meBirlingym}/>
+                            <h2>Mjd Thif</h2>
                       </div>
 
                         <div>   
@@ -193,7 +193,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                     
 
                     <div className={style.mainPart}>
-                    <div class={style.vl}></div>
+                    <div className={style.vl}></div>
                             <div>
                               
                                   <article>
@@ -272,7 +272,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                       </div>
 
                     <div className={style.mainPart}>
-                    <div class="vl"/>
+                    <div className={style.vl}/>
                               <div>
                                   <article>
                                       <h2>Freelance Web Developer.</h2>  

@@ -1,4 +1,5 @@
 
+
 .pageContainer{
     color: rgb(255, 255, 255);
     max-width: 70%;
@@ -7,11 +8,27 @@
     height: auto;
     border: 1px solid white;
     font-size: 1rem;
+    h2{
+        color: rgb(229, 225, 200);
+    }
+  
 }
 .cvContainer{
     display: grid;
     grid-template-columns: 25% 70%;
     height: auto;
+}
+.person{
+    width: 80%;
+    border-radius: 50%;
+    background-color: rgba(113, 109, 109, 0.492);
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.cvIamge{
+    border-radius: 50%;
 }
 
 .cv{
@@ -23,6 +40,7 @@
 .col1{
     padding: 0.6rem;
     background-color: rgba(81, 81, 77, 0.417);
+
 }
 .col2{
     background-color: rgba(13, 17, 46, 0.289);
@@ -60,19 +78,23 @@
 
 
 
-  .extracurricu{
-      align-items: left;
-      text-align: left;
-      margin: 1rem 0.5rem;
-      padding: 1rem;
+.extracurri{
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
   }
+
   .mainHeader{
     padding: 1rem;
   }
   .mainPart{
       display: grid;
       grid-template-columns: 5% 90%;
-      gap:2%
+      gap:2%;
+    h2 {
+        border-bottom: 2px solid gray; 
+    }
   }
  
 
@@ -83,11 +105,11 @@
   }
 
   .sectionTitle{
-      margin: 1rem;
+    margin: 1rem;
   }
 
   .softwareSec{
-    padding: 1rem;
+    padding: 0.4rem;
     max-width: 100%;
     width: 100%;
   }
@@ -136,7 +158,7 @@
     .lanContainer{
         display: none;
     }
-    .extracurricu{
+    .extracurri{
         display: none;
     }
     .softwareSec{

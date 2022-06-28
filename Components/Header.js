@@ -11,10 +11,9 @@ import style from  '../styles/header.module.scss';
 const Header = () => {
   return (
     <header id='home'>   
-        <div className={style.header__container}>
+        <div className={style.headerContainer}>
           <ProfilePic></ProfilePic>
-      
-          <div className={style.header__text}>
+          <div className={style.headerText}>
             <div className={style.squre}>
                   <h2> Hi, I'm Mjd_Thif.</h2>
                         <h4>
@@ -28,15 +27,17 @@ const Header = () => {
                                     <li>-Entreprenur down the road.</li>
                                   </ul>
                   <div  className={style.squre}>
-               
-                            <Link href='/CvPage' >
-                                        <div className='QrCode'>
-                                        <Image 
+                         <div className={style.QrcodeContainer}>
+                              <Link href='/projectspages/resumePage' >
+                                     <div>
+                                       <Image 
+                                        
                                         width="250px"
                                         height="250px"
-                                        src={QrImage} alt={'QR CODE'} />
-                                        </div> 
-                            </Link>
+                                        src={QrImage} alt={'QR CODE'}  className={style.qrImage}/>
+                                      </div> 
+                               </Link>
+                          </div> 
                                         <CvButtons/>
                                         <Image 
                                           width="80px"

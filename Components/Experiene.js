@@ -11,7 +11,7 @@ import style from '../styles/experience.module.scss';
 
 const Experience = () => {
   return (
-        <section id='experience'>
+        <section id='experience' className={style.sectionContainer}>
           <div className={style.container}>
             <div className={style.expBox}>
              <div className={style.expContainer}>

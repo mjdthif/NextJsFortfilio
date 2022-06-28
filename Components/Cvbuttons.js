@@ -6,10 +6,10 @@ const CvButtons = () => {
   return (
     <div className={style.cv}>
       <h2>VIEW MY RESUME</h2>
-      <Link href='/CvPage' >
+      <Link href='/projectspages/resumePage' >
         <button className='btn'>  SVE </button>
       </Link>
-      <Link href ='/CvPage' >
+      <Link href ='/projectspages/resumePage' >
         <button className='btn'>  ENG </button>
       </Link>
        

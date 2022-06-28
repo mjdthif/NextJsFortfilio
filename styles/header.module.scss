@@ -4,7 +4,7 @@
 
 
 
-.header__container{
+.headerContainer{
     height: 100%;
     margin:auto;
     display: grid;
@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.header__text {
+.headerText {
     max-width: 100%;
     width: 70%;
     height:100%;
@@ -30,6 +30,7 @@
     background-color: aliceblue;
     border: 0.5rem solid rgba(255, 255, 255, 0.522);
     padding: 1rem;
+ 
 }
 .signa{
     max-width: 20%;
@@ -38,13 +39,20 @@
     animation: mymove 2s;
     animation-iteration-count:2;
   }
-.QrCode{
+
+.QrcodeContainer{
     max-width: 60%;
     width: 50%;
     margin:1rem auto;
     animation: mymove 2s;
     animation-iteration-count:2;
-  }
+}
+
+.qrImage{
+    &:hover{
+        cursor: pointer;
+    }
+}
   .signa :hover{
     border: none;
   }
@@ -60,19 +68,19 @@
 
 
 @media screen and  (max-width:1080px) {
-    .header__container{
-        grid-template-columns: 1fr;
+    .headerContainer{
+        grid-template-columns:100%;
     }
-    .header__text{
+    .headerText{
         width: 70%;
         padding: auto; 
     }
 }
 @media screen and  (max-width:800px) {
-    .header__container{
+    .headerContainer{
         margin: 1rem auto;
     }
-    .header__text{
+    .headerText{
         width: 99%;
      
     }
