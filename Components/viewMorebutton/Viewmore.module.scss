@@ -8,11 +8,13 @@
     justify-content: center;
     width: auto;
     max-width: auto;
-
-    margin:5rem auto;
+    margin:5rem auto 0rem auto;
     padding:2rem 1rem;
     border-radius: 50%;
     border: none;
+    &:hover{
+        cursor: pointer;
+    }
 }
 .viewmoreIcon{
     font-size: 1rem;
