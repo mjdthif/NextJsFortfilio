@@ -292,8 +292,8 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
 
                                   </article>
                                   <article>
-                                      <h2>Consultant Cytiva (Formerly GE Healthcare) End-User Technician.</h2>  
-                                      Have performed various tasks during my time at Cytiva, everything from setting up computers to troubleshoot applications. Have also created an RPA method using Flow (PowerApp-MS).
+                                      <h2>Consultant At Atea End-User Technician.</h2>  
+                                      Have performed various tasks during my time at Atea, everything from setting up computers to troubleshoot applications. Have also created an RPA method using Flow (PowerApp-MS).
                                   </article>
                                     
                                   <article>
