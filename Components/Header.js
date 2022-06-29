@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import CvButtons from  '../Components/Cvbuttons';
 import ProfilePic from '../Components/ProfilePic'
-import QrImage from '../public/Assests/webP/MjQrCode.png'
+import QrImage from '../public/Assests/webP/MJContactCard.png'
 import Signa from '../public/Assests/webP/Signa.svg'
 import Image from 'next/image';
 
