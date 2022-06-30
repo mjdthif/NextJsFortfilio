@@ -9,11 +9,9 @@ import style from './ProjectNav.module.scss';
 const ProjectNav = () => {
   return (
     <div className={style.projectNav}>
-      <Link href={"/"} >
-        <a className={style.projectNavLink}>
+        <a className={style.projectNavLink} onClick={()=>history.back()}>
         <BiHomeAlt/>
         </a>
-      </Link>
     </div>
   )
   

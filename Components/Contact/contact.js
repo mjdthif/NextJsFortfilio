@@ -28,30 +28,35 @@ const Contact = () => {
   };
   return (
         <section id='contact' className={style.container}>
-                  <div className={style.contactContainer}>
-                     <div className={style.contactOptions}>
-                          {/* <article className={style.contact__option}>
-                                  <BiPhoneCall className={style.contact__icon}/>
-                            <a href='tel:00469871260' target="_blank" alt='Call' >Call me</a>
-                          </article>
-                          <article className={style.contact__option}>
-                                  <MdOutlineMailOutline className={style.contact__icon}/>
-                            <a href='mailto:mjd.thif@mjdwebstudio.com' target="_blank">Email Me!</a>
-                          </article>
-                          <article className={style.contact__option}>
-                                  <BsWhatsapp className={style.contact__icon}/>
-                            <a href='http://api.whatsapp.com/send?phone +46739871260' target="_blank">Sms me!</a>
-                        </article> */}
-                      </div> 
-                      <div className={style.contactForm}>
-                        <form ref={form} onSubmit={sendEmail}>
+           
+                  <div className={style.contactForm}>
+             
+                  
+                      <form ref={form} onSubmit={sendEmail}>
                           <input type="text" name='name' placeholder='Type Your Full Name' required/>
                           <input type="email" name='Email' placeholder='Type Your Email' required/>
                           <textarea name="message" placeholder='Your Message'  rows="7" required></textarea>
                           <button type='submit' className="btn">Send</button>
-                        </form>
-                      </div>
-                    </div>
+                       
+                </form>
+                {/* <div className={style.contactOptions}>
+                              <button className={style.contactOption}>
+                                      <BiPhoneCall className={style.contact__icon}/>
+                                <a href='tel:0046739871260' target="_blank" alt='Call' ></a>
+                              </button>
+                              <button className={style.contactOption}>
+                                      <MdOutlineMailOutline className={style.contact__icon}/>
+                                <a href='mailto:mjd.thif@icloud.com' target="_blank"></a>
+                              </button>
+                              <button className={style.contactOption}>
+                                      <BsWhatsapp className={style.contact__icon}/>
+                                <a href='http://api.whatsapp.com/send?phone +46739871260' target="_blank" ></a>
+                            </button>
+                    </div>  */}
+                 
+    
+             
+            </div>
         </section>
   )
 }

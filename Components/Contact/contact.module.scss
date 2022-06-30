@@ -1,45 +1,48 @@
 .container{
     height: 100vh;
 }
-.contactContainer{
-    display:grid;
-    grid-template-columns: 1fr;
-    gap: 2%;
+
+
+.contactOptions{
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
     margin: auto;
-    padding: 0.4rem;
+    max-width: 500px;
+    width: 100%;
     border-radius: 0.4rem;
+    gap: 1.4rem;
 }
 
 .contactOption{
-    margin: 1rem;
-    padding: 1rem;
-    max-width: 800px;
-    width: 100%;
-    font-size: 0.8rem;
-    border-radius: 1rem;
-    border: 1px solid white;
-    text-align: center;
+    display:flex;
+    flex-direction: row;
     align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 0.4rem;
+    gap: 1.4rem;
 }
 .contactOption:hover{
     background: rgba(67, 74, 20, 0.549); 
 }
 .contactIcon{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0.4rem;
 }
- .contactOption { 
-    a{
-    margin:auto;
-    display: block;
-    font-size: 2rem;
-    }
-   
-}
+
 /*++++++++++++   Form Styling  ++++++++++++++*/
 
 
 .contactForm{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    padding-top: 10rem;
         form{
                 display: flex;
                 flex-direction: column;
@@ -48,14 +51,14 @@
                 margin: auto;
                 max-width: 800px;
                 width: 100%;
-                border-radius: 1rem ;
+                border-radius: 0.4rem;
                 gap: 1.4rem;
             }
             input, 
             textarea{
                 color: rgb(255, 255, 255);
                 background-color: transparent;
-                border-radius: 1rem;
+                border-radius: 0.4rem;
                 border: 2px solid var(--color-primary);
                 padding: 1.3rem;
                 resize:none;
@@ -73,13 +76,8 @@
 
 
 @media screen and (max-width:1080px) {
-    .contactContainer{
-        margin: auto;
-        display: grid;
-        grid-template-columns:1fr;
-        gap:0;
+    .contactForm{
+        margin: 2rem;
     }
-    .contactContainer > div{
-        margin-bottom: 1rem;
-    }
+   
 }

@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 // picture importing 
 import mySlide from '../public/Assests/webP/mySlide.webp';
-import MdaPic from '../public/Assests/webP/TobiasPic.webp';
+import bagStore from '../public/Assests/webP/bagStore.webp';
 import Accordion from '../public/Assests/webP/accordion.webp';
 import profilePic from '../public/Assests/webP/myPort.webp';
 
@@ -26,16 +26,16 @@ const ViewmoreSetions = () => {
           <div className={style.aboutContent}>
                 <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
-                     <h2>Review</h2>
-                    <Link href ='/projectspages/SlideReview'>
+                     <h2>Store</h2>
+                    <a href ='https://asplundsveskor.vercel.app/' target="_blank" >
                     <a>
                     <Image
                          width="700px"
                          height="500px" 
                          alt="Picture of slide review"
-                         src={mySlide}/>
+                         src={bagStore}/>
                     </a>
-                    </Link >
+                    </a >
                   </div>
                 </div>
           </div>
