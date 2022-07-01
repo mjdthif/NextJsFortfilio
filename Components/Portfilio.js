@@ -8,6 +8,7 @@ import MdaPic from '../public/Assests/webP/TobiasPic.webp'
 import QrPagePic from '../public/Assests/webP/QrPage.webp'
 import  saraportPic from '../public/Assests/webP/saraPortfilio.webp'
 import  mySlide from '../public/Assests/webP/mySlide.webp'
+import Iframe from '../Components/Iframe/Iframe'
 
 
 // compoenents importing

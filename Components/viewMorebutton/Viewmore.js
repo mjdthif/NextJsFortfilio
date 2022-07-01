@@ -7,16 +7,19 @@ import style from './Viewmore.module.scss';
 const Viewmore = () => {
   const [viewMore, setViewMore] = useState(false);
   return (
- <section>
-      <button className={style.viewmoreBtn} onClick={() => setViewMore(!viewMore)}>
-                {viewMore ? "Less -":' More +' }  
-    </button>
+ <section className={style.viewMoreContainer}>
+ 
+
    
-        <div >
-                <div >
+
+        <button className={style.viewmoreBtn} onClick={() => setViewMore(!viewMore)}>
+                {viewMore ? "Less -":' More +' }  
+       </button>
+   
+                <div>
                          {viewMore ? <ViewmoreSetions/> :<></>}
                 </div>
-        </div>
+
        
  </section>
  

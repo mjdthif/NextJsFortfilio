@@ -31,7 +31,6 @@ const Header = () => {
                               <Link href='/projectspages/resumePage' >
                                      <div>
                                        <Image 
-                                        
                                         width="250px"
                                         height="250px"
                                         src={QrImage} alt={'QR CODE'}  className={style.qrImage}/>
@@ -39,7 +38,7 @@ const Header = () => {
                                </Link>
                           </div> 
                                         <CvButtons/>
-                                        <Image 
+                                      <Image 
                                           width="80px"
                                           height="80px"
                                         src={Signa} className={style.signa}/>

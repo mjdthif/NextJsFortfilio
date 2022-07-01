@@ -7,7 +7,7 @@
       text-decoration:none;
       list-style: none;
       -webkit-tap-highlight-color: transparent;
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      font-family:  Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     }
 
@@ -22,12 +22,12 @@
       --color-primary: #c4aa26;
       --color-primary-variant : #384555;
       --color-white: #ffffff;
-      --color-black: #000000;
+      --color-black: #000000b4;
       --color-light: #17355a;
       --container-width-lg : 75%;
       --container-width-md:86%;
       --container-width-sm:95%;
-      --transition : all 0ms ease-in-out;
+      --transition : all 100ms ease-in-out;
     }
 
 
@@ -39,7 +39,7 @@ html, body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-  background-color: var(--color-bg);
+  background-color:black;
   color:var(--color-white);
   line-height:1.7;
 }

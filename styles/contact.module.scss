@@ -1,15 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
 .contact__container{
     height: 100vh;
     margin: auto;
@@ -31,7 +21,7 @@
 form{
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.2);
+    background-color: rgba(187, 187, 187, 0.1);
     padding: 0.8rem;
     margin: auto;
     max-width: 800px;
@@ -50,12 +40,12 @@ textarea{
     resize:none;
 }
 input:focus {
-    background-color: rgba(0, 0, 0, 0.81);
-    color: rgb(255, 255, 0);
+    background-color: rgba(120, 114, 114, 0.81);
+    color: rgb(156, 156, 4);
   }
   textarea:focus{
-    background-color: rgb(13, 0, 0);
-    color: rgb(255, 255, 0);
+    background-color: rgb(72, 66, 66);
+    color: rgb(189, 127, 2);
 }
 
 
