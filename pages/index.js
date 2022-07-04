@@ -43,6 +43,11 @@ useEffect(()=>{
 
   return (
     <>
+
+      <Head>
+        <title>Portfilio | Main</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"  key="title" />
+      </Head>
       <Header></Header> 
       <StyNav  toggle={toggle} isOpen={isOpen} setNavSocial={setNavSocial} navSocial={navSocial} toggleSocialNav={toggleSocialNav}></StyNav> 
       <Portfilio></Portfilio>

@@ -66,7 +66,7 @@ const ViewmoreSetions = () => {
               <div className={style.aboutCards}>
                   <div className={style.aboutCard}>
                      <h2>Accordion</h2>
-                     <Link href ='/projectspages/slideReviewPage'>
+                     <Link href ='/projectspages/accordionPage'>
                     <a>  
                        <Image
                          width="700px"
