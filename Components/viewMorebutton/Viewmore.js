@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ViewmoreSetions from '../ViewmoreSec';
+import ViewmoreSetions from '../porfilio/ViewmoreSec';
 
 
 import style from './Viewmore.module.scss';

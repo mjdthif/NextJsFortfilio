@@ -2,10 +2,10 @@
 import {useState, useEffect} from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../Components/Header';
-import StyNav from  '../Components/Navbar'
-import Portfilio from '../Components/Portfilio';
-import Experience from '../Components/Experiene';
+import Header from '../Components/header/Header';
+import StyNav from  '../Components/navbar/Navbar'
+import Portfilio from '../Components/porfilio/Portfilio';
+import Experience from '../Components/experience/Experiene';
 import Contact from '../Components/Contact/contact';
 import Footer from '../Components/footer/Footer';
 

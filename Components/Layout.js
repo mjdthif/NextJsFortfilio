@@ -1,5 +1,5 @@
 import{useState, useEffect} from 'react';
-import SocialMedia from '../Components/SocialMedia';
+import SocialMedia from '../Components/socialMedia/SocialMedia';
 import layoutStyle from '../styles/layout.module.scss';
 
 

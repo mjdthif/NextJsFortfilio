@@ -4,20 +4,20 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // pictures importing 
-import MdaPic from '../public/Assests/webP/TobiasPic.webp'
-import QrPagePic from '../public/Assests/webP/QrPage.webp'
-import  saraportPic from '../public/Assests/webP/saraPortfilio.webp'
-import  mySlide from '../public/Assests/webP/mySlide.webp'
-import Iframe from '../Components/Iframe/Iframe'
+import MdaPic from '../../public/Assests/webP/TobiasPic.webp'
+import QrPagePic from '../../public/Assests/webP/QrPage.webp'
+import  saraportPic from '../../public/Assests/webP/saraPortfilio.webp'
+import  mySlide from '../../public/Assests/webP/mySlide.webp'
+
 
 
 // compoenents importing
 import ViewmoreSetions from './ViewmoreSec';
-import Viewmore from './viewMorebutton/Viewmore'
+import Viewmore from '../viewMorebutton/Viewmore'
 
 
 // style importing
-import style from '../styles/portfilio.module.scss';
+import style from './portfilio.module.scss';
 
 const Portfilio = () => {
   return (

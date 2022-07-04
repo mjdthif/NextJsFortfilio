@@ -6,7 +6,6 @@ import{MdOutlineMailOutline} from 'react-icons/md';
 import{BiPhoneCall} from'react-icons/bi';
 // import MyENGCV from '../../public/Assests/cvFiles/ENGCV.pdf'
 
-
 import style from './ContactQR.module.scss';
 
 

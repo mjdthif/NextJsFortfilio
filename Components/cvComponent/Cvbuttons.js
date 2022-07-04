@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import style from '../styles/cvCompos.module.scss';
+import style from './cvCompos.module.scss';
 
 const CvButtons = () => {
   return (

@@ -3,8 +3,8 @@ import {BsGithub, BsLinkedin, BsSpotify, BsInstagram,BsTwitter, BsPinterest} fro
 import {SiCodewars} from 'react-icons/si';
 import{MdOutlineMailOutline} from 'react-icons/md';
 import{BiPhoneCall} from'react-icons/bi';
-import sociaStyle from '../styles/socialMedia.module.scss';
-import {showSocial,hideSocial} from '../styles/socialMedia.module.scss';
+import sociaStyle from './socialMedia.module.scss';
+import {showSocial,hideSocial} from './socialMedia.module.scss';
 
 
 

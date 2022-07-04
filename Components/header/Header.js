@@ -1,11 +1,12 @@
 import Link from 'next/link';
-import CvButtons from  '../Components/Cvbuttons';
-import ProfilePic from '../Components/ProfilePic'
-import QrImage from '../public/Assests/webP/MJContactCard.png'
-import Signa from '../public/Assests/webP/Signa.svg'
 import Image from 'next/image';
+import CvButtons from  '../cvComponent/Cvbuttons';
+import ProfilePic from '../profilePic/ProfilePic'
+import QrImage from '../../public/Assests/webP/MJContactCard.png'
+import Signa from '../../public/Assests/webP/Signa.svg'
 
-import style from  '../styles/header.module.scss';
+
+import style from  './header.module.scss';
 
 
 const Header = () => {

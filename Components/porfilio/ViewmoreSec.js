@@ -5,15 +5,15 @@ import Image from 'next/image';
 
 
 // picture importing 
-import mySlide from '../public/Assests/webP/mySlide.webp';
-import bagStore from '../public/Assests/webP/bagStore.webp';
-import Accordion from '../public/Assests/webP/accordion.webp';
-import profilePic from '../public/Assests/webP/myPort.webp';
+import mySlide from '../../public/Assests/webP/mySlide.webp';
+import bagStore from '../../public/Assests/webP/bagStore.webp';
+import Accordion from '../../public/Assests/webP/accordion.webp';
+import profilePic from '../../public/Assests/webP/myPort.webp';
 
 
 
 // style importing
-import style from  '../styles/portfilio.module.scss';
+import style from  './portfilio.module.scss';
 
 
 

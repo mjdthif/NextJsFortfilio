@@ -8,11 +8,11 @@ import {BsToggles} from 'react-icons/bs'
 import { FaUniversity  } from "react-icons/fa";
 import {AiOutlineExperiment, AiFillContacts} from 'react-icons/ai';
 
-import style from '../styles/navbar.module.scss'
+import style from './navbar.module.scss'
 import {
       navToggleIsOpen, 
 
-}from '../styles/navbar.module.scss';
+}from './navbar.module.scss';
 
 
 

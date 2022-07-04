@@ -1,11 +1,11 @@
 import React from 'react';
 // import uipath from '../../Assests/PNG/uipath.webp'
-import {BsCheckSquare} from 'react-icons/bs';
+
 import {FaPython, FaReact, FaJs, FaWordpress, FaNpm,FaNodeJs, FaHtml5, FaMobile, FaFigma, FaBootstrap,FaSass, } from 'react-icons/fa';
 import {DiGit,DiIllustrator, DiMysql, DiPhp, DiCss3, DiJqueryUiLogo , } from 'react-icons/di';
 import {SiRedux, SiAbletonlive, SiNextdotjs, SiBootstrap,  SiExpo, SiXcode, SiUbuntu, SiJson, SiAmazonaws,SiStyledcomponents, SiKalilinux, SiTailwindcss,SiPostman, SiMongodb, SiGnubash,SiVisualstudio, SiAdobephotoshop, SiTypescript} from 'react-icons/si';
 
-import style from '../styles/experience.module.scss';
+import style from './experience.module.scss';
 
 
 

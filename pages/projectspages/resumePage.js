@@ -1,5 +1,5 @@
 
-import CvComponent from '../../Components/CvComponent.js';
+import CvComponent from '../../Components/cvComponent/CvComponent';
 import Head from 'next/head';
 
 const CvPage = () => {
