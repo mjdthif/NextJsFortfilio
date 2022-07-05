@@ -15,8 +15,8 @@ const SocialMediaQr = () => {
   return (
  
    <div className={style.businessCard}>
-        <a href='tel:00469871260' target="_blank" className={style.cardLinks} alt='Mobile'><BiPhoneCall/><h1>Mobile</h1></a>
-        <a href='mailto:mjd.taif@levantisk.com' target="_blank" className={style.cardLinks} alt='Email'><MdOutlineMailOutline/><h1>Email</h1></a>
+        <a href='tel:0046739871260' target="_blank" className={style.cardLinks} alt='Mobile'><BiPhoneCall/><h1>Mobile</h1></a>
+        <a href='mailto:mjd.thif@icloud.com' target="_blank" className={style.cardLinks} alt='Email'><MdOutlineMailOutline/><h1>Email</h1></a>
         <a href="https://www.linkedin.com/in/mjd-thif/"  target='_blank' className={style.cardLinks} alt='LinkedIn'><BsLinkedin/><h1>LinkedIn</h1></a>
         <a href="https://www.mjdwebstudio.com/"  target='_blank' className={style.cardLinks} alt='Portfilio'> <BsGlobe2/><h1>Portfilio</h1></a>
         <a href="https://www.codewars.com/users/mjdthif"  target='_blank' className={style.cardLinks} alt='Code Wars'> <SiCodewars/><h1>Code Wars</h1></a>

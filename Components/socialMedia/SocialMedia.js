@@ -14,7 +14,7 @@ const SocialMedia = ({openSocial}) => {
   return (
     <div className={openSocial ? showSocial : hideSocial } >
       <div className={sociaStyle.socialContainer}>
-        <a href='tel:00469871260' target="_blank" rel='noreferrer'  alt='Call' ><BiPhoneCall/></a>
+        <a href='tel:0046739871260' target="_blank" rel='noreferrer'  alt='Call' ><BiPhoneCall/></a>
         <a href='mailto:mjd.thif@icloud.com' target="_blank" rel='noreferrer'><MdOutlineMailOutline/></a>
         <a href="https://www.linkedin.com/in/mjd-thif/"  target='_blank' rel='noreferrer'><BsLinkedin/></a>
         <a href="https://github.com/mjdthif" target='_blank' rel='noreferrer' ><BsGithub/></a>
