@@ -30,7 +30,6 @@ const ProfilePic = () => {
         width="250px"
         height={"350px"}
         alt="Mjd Profile picture"
-      
         priority={true}
       />
       
