@@ -39,7 +39,7 @@ html, body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-  background-color:black;
+  background-color:rgb(15,15,17);
   color:var(--color-white);
   line-height:1.7;
 }

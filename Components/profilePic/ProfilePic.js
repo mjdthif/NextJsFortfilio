@@ -1,14 +1,19 @@
-import React, {useState} from 'react';
-import Image from 'next/image';
-import style from './profilePic.module.scss';
+import React, { useState } from "react";
+import Image from "next/image";
+import style from "./profilePic.module.scss";
+import profileImage from "../../public/Assests/webP/meBirlingym.webp";
 
-
-
-const ProfilePic  = () => {
+const ProfilePic = () => {
   return (
-    <div className={style.picContainer}>       
-     {/* the image url is the css due to some costomatzion */}
-    </div>
-  )
-}
+  
+      <Image
+        src={profileImage}
+        width={"300px"}
+        height={"200px"}
+        alt="Mjd Profile picture"
+        layout="responsive"
+      />
+
+  );
+};
 export default ProfilePic;

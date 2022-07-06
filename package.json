@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
     "axios": "^0.27.2",
     "emailjs": "^4.0.0",
     "next": "12.1.6",
