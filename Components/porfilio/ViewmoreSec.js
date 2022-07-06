@@ -21,7 +21,7 @@ const ViewmoreSetions = () => {
   return (
 
 
-<section className={style.viewMoreContainer}>
+<section id='viewmore' className={style.viewMoreContainer}>
     <div className={style.portfilioContainer}>
           <div className={style.aboutContent}>
                 <div className={style.aboutCards}>

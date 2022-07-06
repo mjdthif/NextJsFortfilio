@@ -73,7 +73,7 @@ const Review = () => {
         </button>
  
       </div>
-      <ProjectNav hrefPosition={"/#portfilio"} scrollPosition={false}></ProjectNav>
+      <ProjectNav/>
     </article>
   );
 };

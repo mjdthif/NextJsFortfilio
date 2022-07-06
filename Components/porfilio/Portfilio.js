@@ -22,7 +22,7 @@ import style from './portfilio.module.scss';
 const Portfilio = () => {
   return (
     <>
-    <section id='portfilio' className={style.container}>
+    <section id="portfilio" className={style.container}>
         <div  className={style.portfilioContainer}>
 
           <div className={style.aboutContent}>
