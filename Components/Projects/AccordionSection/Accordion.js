@@ -14,7 +14,7 @@ function Accordion() {
               <SingleQuestion key={question.id} {...question}></SingleQuestion>
             );
           })}
-              <ProjectNav></ProjectNav>
+              <ProjectNav hrefPosition={'/#portfilio'}></ProjectNav>
         </main>
     </section>
   );

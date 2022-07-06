@@ -28,13 +28,11 @@ const ViewmoreSetions = () => {
                   <div className={style.aboutCard}>
                      <h2>Store</h2>
                     <a href ='https://asplundsveskor.vercel.app/' target="_blank" >
-                    <a>
                     <Image
                          width="700px"
                          height="500px" 
                          alt="Picture of slide review"
                          src={bagStore}/>
-                    </a>
                     </a >
                   </div>
                 </div>

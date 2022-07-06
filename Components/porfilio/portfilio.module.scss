@@ -31,12 +31,12 @@
     text-align: center;
     padding: 0.2rem;
     border:1px solid rgb(87, 87, 87);
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
 }
 .aboutCard:hover{
-    border:1px solid rgb(162, 138, 0);
-    transition: var( --transition);
-    transform: scale(0.98);
+    border:1px solid rgb(255, 255, 255);
+    transition: var(--transition);
+    transform: scale(1.02);
 }
 .portfilioContainer img{
     display: block;
@@ -51,11 +51,6 @@
 
 
  /*================================================== Media query  */
-
-
-
-
-
 @media screen and  (max-width:1080px) {
     .portfilioContainer{
         margin: auto;

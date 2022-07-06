@@ -1,5 +1,6 @@
 
 import {useState, useEffect} from 'react';
+
 import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../Components/header/Header';
@@ -13,7 +14,7 @@ import Footer from '../Components/footer/Footer';
 
 
 
-export default function Home() {
+ function Home() {
 
   const [ isOpen , setIsOpen] = useState(false)
   const [ navSocial, setNavSocial]  = useState(false);
@@ -58,3 +59,5 @@ useEffect(()=>{
     </>
   )
 }
+
+ export default Home;

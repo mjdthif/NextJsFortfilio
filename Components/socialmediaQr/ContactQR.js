@@ -29,7 +29,7 @@ const QrContact = () => {
                       </div>
                     </article>
                   <SocialMediaQr></SocialMediaQr>
-                <ProjectNav></ProjectNav>
+                <ProjectNav hrefPosition={"/"}></ProjectNav>
         </section>
     </div>
   

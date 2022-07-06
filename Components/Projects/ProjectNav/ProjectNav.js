@@ -6,12 +6,15 @@ import style from './ProjectNav.module.scss';
 
 
 
-const ProjectNav = () => {
+const ProjectNav = ({hrefPosition}) => {
   return (
+   
     <div className={style.projectNav}>
-        <a className={style.projectNavLink} onClick={()=>history.back()}>
-        <BiHomeAlt/>
-        </a>
+      <Link href={hrefPosition} scroll={false}>
+          <a className={style.projectNavLink}>
+                <BiHomeAlt/>   
+          </a>
+      </Link>
     </div>
   )
   
