@@ -18,7 +18,7 @@ function CvComponent() {
         <div className={style.pageContainer}>
             <div className={style.cvContainer}>
                   <div className={style.col1}>
-                  <ProjectNav/>
+                  <ProjectNav hrefPosition={'/'} scrollPosition={true}/>
                       <div className={style.person}>
                         <Image width={'100px'} height={'100px'} alt="Resume piture of Mjd Thif" className={style.cvIamge} src={meBirlingym}/>
                             <h2>Mjd Thif</h2>
@@ -338,7 +338,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                   </div>
             </div>
           <hr/>
-        <ProjectNav></ProjectNav>
+        <ProjectNav hrefPosition={'/'} scrollPosition={true}></ProjectNav>
         </div>
         
   )

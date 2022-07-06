@@ -38,7 +38,7 @@
                     <img src={qr}  className={style.QrImg}/>
                     <a className="btn" variant='contained' color='success' href={qr} download="qrcode.png">Download</a>
                 </>}
-                <ProjectNav hrefPosition={"/#portfilio"}></ProjectNav>
+                <ProjectNav hrefPosition={"/#portfilio"} scrollPosition={false}></ProjectNav>
                 </main>
             </div>
         )

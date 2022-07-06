@@ -17,7 +17,7 @@ function Profiles() {
               Clear All
             </button>
             <button className={style.birthdayBtn} onClick={()=>setPeople(data)}> Show All </button>
-            <ProjectNav hrefPosition={"/#portfilio"}></ProjectNav>
+            <ProjectNav hrefPosition={"/#portfilio"} scrollPosition={false}></ProjectNav>
           </main>
         </section>
         
