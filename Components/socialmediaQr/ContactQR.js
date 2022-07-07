@@ -19,6 +19,7 @@ const QrContact = () => {
                       width='100px'
                       height='100px'
                       src={meBirlingym}
+                      priority={true}
                     />
                 </a>
            </Link>
@@ -29,7 +30,7 @@ const QrContact = () => {
                       </div>
                     </article>
                   <SocialMediaQr></SocialMediaQr>
-                <ProjectNav hrefPosition={"/"}></ProjectNav>
+                <ProjectNav href={"/"}></ProjectNav>
         </section>
     </div>
   

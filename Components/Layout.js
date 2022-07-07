@@ -19,28 +19,6 @@ const Layout = ({children}) => {
   
   };
  
-// const toggleSocialNav  =  ()=>{
-//   setToggleSocial(!toggleSocial)
-// }
-
-// const reversScrolling = () =>{
-//   if (window.scrollY >= 0){
-//       if(isOpen===true){
-//          toggle()
-//       }
-//     // setShowSocial(false)
-//     // console.log('the is the reverse scrolling')
-//     // setToggleSocial(false)
-//     // console.log(showSocial)
-//   }
-// };
-
-// useEffect(()=>{
-//   window.addEventListener('scroll', reversScrolling)
-// }, [])
-
-
-
 
   return (
     <>

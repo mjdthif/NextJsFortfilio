@@ -7,11 +7,6 @@ import style from './cvCompos.module.scss';
 
 
 
-
-
-
-
-
 function CvComponent() {
 
   return(
@@ -20,7 +15,7 @@ function CvComponent() {
                   <div className={style.col1}>
                   <ProjectNav hrefPosition={'/'} scrollPosition={true}/>
                       <div className={style.person}>
-                        <Image width={'100px'} height={'100px'} alt="Resume piture of Mjd Thif" className={style.cvIamge} src={meBirlingym}/>
+                        <Image width={'100px'} height={'100px'}    priority={true} alt="Resume piture of Mjd Thif" className={style.cvIamge} src={meBirlingym}/>
                             <h2>Mjd Thif</h2>
                       </div>
 

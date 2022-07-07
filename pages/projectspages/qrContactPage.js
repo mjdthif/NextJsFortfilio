@@ -9,7 +9,7 @@ const QrContactPage = () => {
         <title>|ContactQR</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"  key="title" />
       </Head>
-        <ContactQR></ContactQR>
+        <ContactQR/>
     </>
   )
 }
