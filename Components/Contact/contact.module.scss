@@ -1,83 +1,78 @@
-.container{
-    height: 100vh;
+.container {
+  height: 100vh;
 }
 
-
-.contactOptions{
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    margin: auto;
-    max-width: 500px;
-    width: 100%;
-    border-radius: 0.4rem;
-    gap: 1.4rem;
+.contactOptions {
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: auto;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 0.4rem;
+  gap: 1.4rem;
 }
 
-.contactOption{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgba(74, 70, 70, 0.536);
-    padding: 1rem;
-    margin: 1rem;
-    max-width: 100px;
-    width: 100%;
-    border-radius: 0.4rem;
-    gap: 1.4rem;
+.contactOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(74, 70, 70, 0.536);
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 100px;
+  width: 100%;
+  border-radius: 0.4rem;
+  gap: 1.4rem;
 }
-.contactOption:hover{
-    background: rgba(77, 77, 72, 0.549); 
+.contactOption:hover {
+  background: rgba(77, 77, 72, 0.549);
 }
-.contactIcon{
-    font-size: 2rem;
-    margin-bottom: 0.4rem;
+.contactIcon {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
 }
 
 /*++++++++++++   Form Styling  ++++++++++++++*/
 
-
-.contactForm{
-    display: grid;
-    grid-template-columns: 100%;
-    margin: auto;
-    padding-top: 10rem;
-        form{
-                display: flex;
-                flex-direction: column;
-                background-color: rgba(187, 187, 187, 0.1);
-                padding: 1rem;
-                margin: auto;
-                max-width: 800px;
-                width: 100%;
-                border-radius: 0.4rem;
-                gap: 1.4rem;
-            }
-            input, 
-            textarea{
-                color: rgb(255, 255, 255);
-                background-color: transparent;
-                border-radius: 0.4rem;
-                border: 2px solid var(--color-primary);
-                padding: 1.3rem;
-                resize:none;
-            }
-            input:focus {
-                background-color: rgba(84, 81, 81, 0.81);
-                color: rgb(255, 255, 0);
-            }
-            textarea:focus{
-                background-color: rgb(78, 71, 71);
-                color: rgb(255, 255, 0);
-            }
+.contactForm {
+  display: grid;
+  grid-template-columns: 100%;
+  margin: auto;
+  padding-top: 3rem;
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(187, 187, 187, 0.1);
+    padding: 1rem;
+    margin: 4rem auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 0.4rem;
+    gap: 1.4rem;
+  }
+  input,
+  textarea {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 0.4rem;
+    border: 2px solid var(--color-primary);
+    padding: 1.3rem;
+    resize: none;
+  }
+  input:focus {
+    background-color: rgba(84, 81, 81, 0.81);
+    color: rgb(255, 255, 0);
+  }
+  textarea:focus {
+    background-color: rgb(78, 71, 71);
+    color: rgb(255, 255, 0);
+  }
 }
 
-
-
-@media screen and (max-width:1080px) {
-    .contactForm{
-        margin: 2rem;
-    }
-   
+@media screen and (max-width: 1080px) {
+  .contactForm {
+    margin: 2rem;
+  }
 }
