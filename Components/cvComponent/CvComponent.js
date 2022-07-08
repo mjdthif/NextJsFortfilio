@@ -1,4 +1,5 @@
 import Image from 'next/image.js';
+import Link from 'next/link.js';
 import ProjectNav from '../Projects/ProjectNav/ProjectNav.js';
 import meBirlingym from "../../public/Assests/webP/meBirlingym.webp";
 import SocialMediaQr from '../socialmediaQr/SocialMediaQr.js';
@@ -13,11 +14,14 @@ function CvComponent() {
         <div className={style.pageContainer}>
             <div className={style.cvContainer}>
                   <div className={style.col1}>
-                  <ProjectNav hrefPosition={'/'} scrollPosition={true}/>
-                      <div className={style.person}>
+                  {/* <ProjectNav hrefPosition={'/'} scrollPosition={true}/> */}
+                  <Link href='/'>
+                    <div className={style.person}>
                         <Image width={'100px'} height={'100px'}    priority={true} alt="Resume piture of Mjd Thif" className={style.cvIamge} src={meBirlingym}/>
                             <h2>Mjd Thif</h2>
                       </div>
+                  </Link>
+                 
 
                         <div>   
                             <SocialMediaQr></SocialMediaQr>
@@ -333,7 +337,6 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                   </div>
             </div>
           <hr/>
-        <ProjectNav hrefPosition={'/'} scrollPosition={true}></ProjectNav>
         </div>
         
   )

@@ -1,70 +1,61 @@
+.portfilioContainer {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 2%;
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 3rem;
+  padding-top: 5rem;
+}
+.viewMoreContainer {
+  margin: inherit;
+  padding: inherit;
+}
+.aboutContent {
+  height: auto;
+  padding: auto;
+  border-radius: 0.5rem;
+}
+.aboutCards {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+.aboutCard {
+  align-items: center;
+  text-align: center;
+  padding: 0.2rem;
+  border: 1px solid rgb(0, 6, 83);
+  border-radius: 0.2rem;
+}
+.aboutCard:hover {
+  transition: var(--transition);
+  transform: scale(1.02);
+}
+.portfilioContainer img {
+  display: block;
+  max-height: 300px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
 
-
-.portfilioContainer{
-    display: grid;
-    grid-template-columns: 48% 48%;
-    gap: 2%;
-    max-width: 1400px;
-    width: 100%;
+/*================================================== Media query  */
+@media screen and (max-width: 1080px) {
+  .portfilioContainer {
     margin: auto;
-    padding: 1rem 3rem;
-    padding-top: 5rem;
-
-}
-.viewMoreContainer{
-    margin: inherit;
-    padding: inherit;
-}
-.aboutContent{
-    height: auto;
+    grid-template-columns: 100%;
     padding: auto;
-    border-radius: 0.5rem;
-}
-.aboutCards{
-    backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.2);
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-}
-.aboutCard{
-    align-items: center;
-    text-align: center;
-    padding: 0.2rem;
-    border:1px solid rgb(87, 87, 87);
-    border-radius: 0.2rem;
-}
-.aboutCard:hover{
-    border:1px solid rgb(255, 255, 255);
-    transition: var(--transition);
-    transform: scale(1.02);
-}
-.portfilioContainer img{
-    display: block;
-    max-height: 300px;
-    height: 300px;
-    width:100%;
-    object-fit:cover;
-    margin-bottom: 1rem;
+  }
 }
 
-
-
-
- /*================================================== Media query  */
-@media screen and  (max-width:1080px) {
-    .portfilioContainer{
-        margin: auto;
-        grid-template-columns: 100%;
-        padding:auto;
-    }
-   
-}
-
-@media screen and  (max-width:700px) {
-    .portfilioContainer{
-        padding:1rem  0.1rem; 
-        padding-top: 7rem;
-        gap: 1%;
-    }
-
+@media screen and (max-width: 700px) {
+  .portfilioContainer {
+    padding: 1rem 0.1rem;
+    padding-top: 7rem;
+    gap: 1%;
+  }
 }
