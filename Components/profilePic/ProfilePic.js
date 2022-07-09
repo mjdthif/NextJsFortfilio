@@ -16,6 +16,8 @@ const ProfilePic = () => {
           height={"200px"}
           alt="Mjd Profile picture"
           priority={true}
+          quality={50}
+          layout={'responsive'}
         />
         <Image
           src={meBirlin}
@@ -24,6 +26,7 @@ const ProfilePic = () => {
           alt="Mjd Profile picture"
           quality={50}
           priority={true}
+          layout={'responsive'}
           className={style.profileImage}
         />
         <Image
@@ -33,6 +36,7 @@ const ProfilePic = () => {
           alt="Mjd Profile picture"
           quality={50}
           priority={true}
+          layout={'responsive'}
           className={style.profileImage}
         />
       </div>

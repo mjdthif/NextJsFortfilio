@@ -13,6 +13,7 @@
   padding: inherit;
 }
 .aboutContent {
+  margin:0rem 4rem ;
   height: auto;
   padding: auto;
   border-radius: 0.5rem;
@@ -50,12 +51,25 @@
     grid-template-columns: 100%;
     padding: auto;
   }
+  .aboutContent {
+
+    margin:0rem 6rem ;
+    height: auto;
+    padding: auto;
+    border-radius: 0.5rem;
+  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .portfilioContainer {
     padding: 1rem 0.1rem;
     padding-top: 7rem;
     gap: 1%;
+  }
+  .aboutContent {
+    margin:auto;
+    height: auto;
+    padding: auto;
+    border-radius: 0.5rem;
   }
 }

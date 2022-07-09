@@ -1,132 +1,131 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: fixed;
+  right: 0;
+  top: 5rem;
+  bottom: -1rem;
+  align-items: center;
+  margin-right: 10px;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+}
+.active {
+  background-color: rgba(171, 171, 172, 0.603);
+}
 
+.navToogle {
+  display: none;
+  color: orange;
+  font-size: 1.7rem;
+  padding: 0.4rem 0.4rem;
+  margin: 0.5rem 0rem;
+  border-radius: 50%;
+}
 
+.navLinks {
+  color: orange;
+  font-size: 1.7rem;
+  padding: 0.3rem;
+  margin: 1rem 0rem;
+  border-radius: 60%;
+  display: flex;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  &:active {
+  }
+}
+// background-color: ${({isOpen}) => (isOpen ? "#000000" : "none") };
 
-.navBar{
+.sociaToggel {
+  display: none;
+  color: orange;
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 1rem;
+  width: 90px;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.2rem 0;
+  font-style: italic;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 110%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+// ===============responsive media quirey
+
+@media screen and (max-width: 800px) {
+  .navBar {
     display: flex;
-    flex-direction: column;
-    gap:0.6rem;
+    flex-direction: row;
     position: fixed;
-    right:0;
-    top:5rem;
-    bottom: -1rem;
-    align-items: center;
-    margin-right: 10px;
     backdrop-filter: blur(5px);
     background: rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
-}
-.active{
-    background-color: rgba(255, 255, 255, 0.462);
-}
-
-
-.navToogle {
-    display:none;
-    color:orange;
-    font-size: 1.7rem;
-    padding:0.7rem 0.6rem;
-    margin: 1rem 0rem;
-    border-radius: 50%;
-}
-
-.navLinks{
-    color:orange;
-    font-size: 1.7rem;
-    padding:0.4rem;
-    margin:1rem 0rem;
-    border-radius: 50%;
+    top: 1%;
+    bottom: 92%;
+    left: 84%;
+    right: -10%;
+    padding: 0rem 1rem;
+    align-items: center;
+    z-index: 10;
+  }
+  .navToggleIsOpen {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3rem;
+    top: 1%;
+    bottom: 92%;
+    left: 15%;
+    right: -10%;
+    padding: 0rem 1rem;
+    align-items: center;
+    z-index: 10;
+  }
+  .navToogle {
+    cursor: pointer;
     display: flex;
     &:hover {
-        background-color: rgba(154, 142, 142, 0.83);
-    };
-    &:active {
-        background-color: rgba(102, 94, 94, 0.469);
-    };
-    
-} 
-    // background-color: ${({isOpen}) => (isOpen ? "#000000" : "none") };
- 
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+  .navLinks {
+    padding: 0.9rem;
+  }
 
-.sociaToggel{
-    display: none;
-    color:orange;
-    font-size: 1.7rem;
-    padding:0.5rem;
-    border-radius: 50%;
+  .sociaToggel {
+  }
+  .tooltip .tooltiptext {
+    width: 100px;
+    transform: rotate(-90deg);
+    top: 140%;
+    left: 90%;
+    margin-left: -60px;
+  }
 }
-
-
-
-
-
-
-// &:hover {
-//     background-color: rgba(0, 0, 0, 0.3);
-// };
-// &.active{
-//     background-color: rgba(192, 181, 181, 0.3);
-// }
-
-    // background-color: ${({showSocial}) => (showSocial ? "#000000" : "none") };
-
-//     @media screen and (max-width : 800px ){
-//     display: flex;
-//     }
-//     &:hover {
-//     background-color: rgba(192, 181, 181, 0.3);
-// };
-
-// ===============responsive media quirey 
-
-
-@media screen and (max-width : 800px ) {
-    .navBar{
-        display: flex;
-        flex-direction:row;
-        position:fixed;
-        backdrop-filter: blur(5px);
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 3rem;
-        top: 1%;
-        bottom: 92%;
-        left:84%;
-        right: -10%;
-        padding: 0rem 1rem;
-        align-items: center;
-        z-index: 10;
-    }
-    .navToggleIsOpen{
-        display: flex;
-        flex-direction:row;
-        position:fixed;
-        backdrop-filter: blur(5px);
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 3rem;
-        top: 1%;
-        bottom: 92%;
-        left:15%;
-        right: -10%;
-        padding: 0rem 1rem;
-        align-items: center;
-        z-index: 10;
-    } 
-    .navToogle{
-        cursor: pointer;
-        display: flex;
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.3);
-        };
-    }
-    .navLinks{
-        padding:0.9rem;
-    }
-
-    .sociaToggel{
-
-    }
-}
-
-
-
-
-

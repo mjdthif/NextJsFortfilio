@@ -39,6 +39,7 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
   return (
       
     <>
+
     <nav className={ isOpen ? navToggleIsOpen : style.navBar}>
         
                   <span className={style.navToogle} onClick={toggle}><BsToggles/></span>
@@ -49,7 +50,11 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
                                     className={style.navLinks}
                                     spy={true} smooth={true} offset={50} duration={1000}
                                     activeClass={style.active}>    
-                                    <BiHomeAlt/>     
+                                        
+                                  <div className={style.tooltip}>
+                                    <BiHomeAlt/> 
+                                    <span className={style.tooltiptext}>{"Home"}</span>
+                                  </div>    
                               </LinkR >
                                 
 
@@ -57,21 +62,34 @@ const StyNav = ({toggle, isOpen , showSocialNav, showSocial}) => {
                                     className={style.navLinks}
                                     spy={true} smooth={true} offset={50} duration={1000}
                                     activeClass={style.active}>    
+                                  
+                                    <div className={style.tooltip}>
                                     <FaUniversity/>     
+                                    <span className={style.tooltiptext}>{"Portfilio"}</span>
+                                  </div>    
                               </LinkR >
                                 
                               <LinkR  to='experience'
                                 className={style.navLinks}
                                 spy={true} smooth={true} offset={50} duration={1000}
                                 activeClass={style.active}>    
-                                  <AiOutlineExperiment/>     
+                       
+                                  
+                                  <div className={style.tooltip}>
+                                  <AiOutlineExperiment/>       
+                                    <span className={style.tooltiptext}>{"Experience"}</span>
+                                  </div>  
                               </LinkR >
 
                               <LinkR  to='contact'
                                 className={style.navLinks}
                                 spy={true} smooth={true} offset={50} duration={1000}
                                 activeClass={style.active}>    
-                                  <AiFillContacts/>     
+                    
+                                  <div className={style.tooltip}>
+                                  <AiFillContacts/>      
+                                    <span className={style.tooltiptext}>{"Contact"}</span>
+                                  </div> 
                               </LinkR >
                               
 

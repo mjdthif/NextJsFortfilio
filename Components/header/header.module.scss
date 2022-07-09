@@ -1,92 +1,76 @@
-
-
-
-
-
-
-.headerContainer{
-    height: 100%;
-    margin:auto;
-    display: grid;
-    grid-template-columns:45% 45%;
-    gap: 10%;
-    align-items: center;
-    text-align: center;
+.headerContainer {
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+  align-items: center;
+  text-align: center;
 }
 
 .headerText {
-    max-width: 100%;
-    width: 70%;
-    height:100%;
-    color:black;
-    margin: auto;
-    font-size: 1rem;
-    border-radius: 0.2rem;
-    margin-bottom: 10rem;
+  max-width: 100%;
+  width: 60%;
+  height: 100%;
+  color: black;
+  margin: auto;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 10rem;
 }
 
-
-.squre{
-    background-color: aliceblue;
-    border: 0.5rem solid rgba(255, 255, 255, 0.522);
-    padding: 1rem;
- 
+.squre {
+  background-color: aliceblue;
+  border: 0.5rem solid rgba(255, 255, 255, 0.522);
+  padding: 1rem;
 }
-.signa{
-    max-width: 20%;
-    width: 20%;
-    margin:1rem auto;
-    animation: mymove 2s;
-    animation-iteration-count:2;
+.signa {
+  max-width: 20%;
+  width: 20%;
+  margin: 1rem auto;
+  animation: mymove 2s;
+  animation-iteration-count: 2;
+}
+
+.QrcodeContainer {
+  max-width: 60%;
+  width: 50%;
+  margin: 1rem auto;
+  animation: mymove 2s;
+  animation-iteration-count: 2;
+}
+
+.qrImage {
+  &:hover {
+    cursor: pointer;
   }
-
-.QrcodeContainer{
-    max-width: 60%;
-    width: 50%;
-    margin:1rem auto;
-    animation: mymove 2s;
-    animation-iteration-count:2;
 }
-
-.qrImage{
-    &:hover{
-        cursor: pointer;
-    }
+.signa :hover {
+  border: none;
 }
-  .signa :hover{
-    border: none;
-  }
 
 @keyframes mymove {
-    20%{transform: scale(1.1);}
+  20% {
+    transform: scale(1.1);
+  }
 }
-
-
-
 
 /* ++++++++++++++++++++ Media Querey   ++++++++++++++++ */
 
-
-@media screen and  (max-width:1080px) {
-    .headerContainer{
-        grid-template-columns:100%;
-    }
-    .headerText{
-        width: 70%;
-        padding: auto; 
-    }
+@media screen and (max-width: 1080px) {
+  .headerContainer {
+    grid-template-columns: 100%;
+  }
+  .headerText {
+    width: 70%;
+    padding: auto;
+  }
 }
-@media screen and  (max-width:800px) {
-    .headerContainer{
-        margin: 1rem auto;
-    }
-    .headerText{
-        width: 99%;
-     
-    }
-
+@media screen and (max-width: 800px) {
+  .headerContainer {
+    margin: 1rem auto;
+  }
+  .headerText {
+    width: 99%;
+  }
 }
-
-
-
-
