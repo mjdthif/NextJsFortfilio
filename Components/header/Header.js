@@ -11,7 +11,7 @@ import style from "./header.module.scss";
 
 const Header = () => {
   const [show, setShow] = useState(false)
-  console.log(show)
+
   return (
     
     <header id="home">
@@ -39,6 +39,7 @@ const Header = () => {
                       height="250px"
                       src={QrImage}
                       alt={"QR CODE"}
+                      priority={true}
                       className={style.qrImage}
                       onClick={()=>setShow(true)}
                     />
@@ -47,6 +48,7 @@ const Header = () => {
               </div>
               <CvButtons />
               <Image
+                priority={true}
                 width="80px"
                 height="80px"
                 src={Signa}

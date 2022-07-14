@@ -29,6 +29,7 @@ function Modal(props) {
         <div className={style.modalContent} onClick={e=>e.stopPropagation()}>
           <div className={style.modalBody}>
             <Image
+            priority={true}
               width="400px"
               height="400px"
               src={QrImage}
