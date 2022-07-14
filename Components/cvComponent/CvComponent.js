@@ -337,6 +337,7 @@ To obtain a position as a Web Developer where I believe I can expand my knowledg
                   </div>
             </div>
           <hr/>
+          <ProjectNav/>
         </div>
         
   )

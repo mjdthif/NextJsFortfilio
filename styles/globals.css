@@ -17,8 +17,7 @@
     
      /* These are my variables */
     :root{
-      --color-bg : #17355a;
-      --color-bg-var : #64a3f0;
+      --color-bg : #000000;
       --color-primary: #c4aa26;
       --color-primary-variant : #384555;
       --color-white: #ffffff;
@@ -39,10 +38,15 @@ html, body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
-  background-color:rgb(0, 0, 0);
+  background-color:var(--color-bg);
   color:var(--color-white);
   line-height:1.7;
 }
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgba(2, 105, 133, 0.337);
+}
+
 
 .container{
   height: auto;

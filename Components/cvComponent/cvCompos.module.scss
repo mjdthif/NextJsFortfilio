@@ -11,7 +11,6 @@
     h2{
         color: rgb(229, 225, 200);
     }
-  
 }
 .cvContainer{
     display: grid;
@@ -24,14 +23,13 @@
     padding: 1rem;
     align-items: center;
     text-align: center;
-
 }
 
 .cvIamge{
     border-radius: 50%;
     &:hover{
         cursor: pointer;
-        transform: scale(1.1);
+        transform: scale(0.9);
     }
 }
 

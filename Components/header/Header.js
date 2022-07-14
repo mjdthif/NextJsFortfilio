@@ -1,19 +1,25 @@
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import CvButtons from "../cvComponent/Cvbuttons";
 import ProfilePic from "../profilePic/ProfilePic";
 import QrImage from "../../public/Assests/webP/MJContactCard.png";
 import Signa from "../../public/Assests/webP/Signa.svg";
+import Modal from '../modal/modal.js'
 
 import style from "./header.module.scss";
 
 const Header = () => {
+  const [show, setShow] = useState(false)
+  console.log(show)
   return (
+    
     <header id="home">
       <div className={style.headerContainer}>
         <ProfilePic></ProfilePic>
         <div className={style.headerText}>
           <div className={style.squre}>
+            <Modal onClose={()=>setShow(false)} show={show} ></Modal>
             <h2> Hi, I'm Mjd_Thif.</h2>
             <h4>
               <br />
@@ -26,17 +32,18 @@ const Header = () => {
             </ul>
             <div className={style.squre}>
               <div className={style.QrcodeContainer}>
-                <Link href="/projectspages/resumePage">
-                  <div>
+         
+             
                     <Image
                       width="250px"
                       height="250px"
                       src={QrImage}
                       alt={"QR CODE"}
                       className={style.qrImage}
+                      onClick={()=>setShow(true)}
                     />
-                  </div>
-                </Link>
+            
+           
               </div>
               <CvButtons />
               <Image
